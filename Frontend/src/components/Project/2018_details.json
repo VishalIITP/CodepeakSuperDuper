@@ -1,0 +1,513 @@
+[
+    {
+        "repo-url": "https://github.com/njackwinterofcode/algorithms_with_git",
+        "title": "algorithms-with-git",
+        "desc": "A simple collection of algorithms in various languages.",
+        "mentor": "aryadas98",
+        "lang": [
+            "Any"
+        ],
+        "tag": [
+            "Algorithms"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Alphynite",
+        "title": "Alphynite",
+        "desc": "Alphynite",
+        "mentor": "sk9331657",
+        "lang": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Alzheimer-s-Disease-Prediction-using-3D-MRI-scans",
+        "title": "Alzheimers-Prediction",
+        "desc": "",
+        "mentor": "mansi1710",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Machine Learning"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/B.E.N.J.I.",
+        "title": "B.E.N.J.I.",
+        "desc": "B.E.N.J.I.- The Impossible Missions Force's digital assistant",
+        "mentor": "the-ethan-hunt",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Virtual Assistant"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/cool-name-api",
+        "title": "cool-name-api",
+        "mentor": "mohitkyadav",
+        "lang": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/cruzz",
+        "title": "cruzz",
+        "desc": "Welcome aboard!",
+        "mentor": "Monal5031",
+        "lang": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/cruzz_app",
+        "title": "cruzz_app",
+        "desc": "Welcome aboard !!",
+        "mentor": "DipanshKhandelwal",
+        "lang": [
+            "Java"
+        ],
+        "tag": [
+            "Android"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/cruzz-web",
+        "title": "cruzz-web",
+        "mentor": "mohitkyadav",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Backend",
+        "title": "Datlizer Backend",
+        "desc": "Visualizations in the air",
+        "mentor": "aswinzz",
+        "lang": [
+            "Javascript"
+        ],
+        "tag": [
+            "Python",
+            "Database"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Frontend",
+        "title": "Datlizer Frontend",
+        "desc": "Visualizations in the air",
+        "mentor": "aswinzz",
+        "lang": [
+            "Javascript"
+        ],
+        "tag": [
+            "Python",
+            "Database"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/evolutions-webapp",
+        "title": "evolutions-webapp",
+        "desc": "What? monferno is evolving!",
+        "mentor": "anshumanv",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web",
+            "Pokemon"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Fake-News-Detector",
+        "title": "Fake-News-Detector",
+        "desc": "Real versus fake news",
+        "mentor": "itsmepiyush2",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Machine Learning"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/first-timers-guide",
+        "title": "first-timers-guide",
+        "desc": "A collection of guides for and by first-timers",
+        "mentor": "the-ethan-hunt",
+        "lang": [
+            "Multiple"
+        ],
+        "tag": [
+            "First timers guide"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Getting-Started",
+        "title": "Getting-Started",
+        "desc": "Instructions for newbies on how to get started with open source.",
+        "mentor": "aryadas98",
+        "lang": [
+            "None"
+        ],
+        "tag": [
+            "Documentation"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/git-stalk-cli",
+        "title": "git-stalk-cli",
+        "desc": "A CLI tool for keeping an eye on contributions of peers (Python Package)",
+        "mentor": "aashutoshrathi",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Github App"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/HackerRank-Test-Case-Generator",
+        "title": "HackerRank-Test-Case-Generator",
+        "desc": "One Click Test cases generator.",
+        "mentor": "aashutoshrathi",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "CP"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/HealthLedger",
+        "title": "HealthLedger",
+        "desc": "Application for tracking Organs donations in hospitals using Blockchain technology.",
+        "mentor": "jogendra",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Blockchain", "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/IITP-Connect",
+        "title": "IITP-Connect",
+        "desc": "The Android app for the IIT Patna student community by the student community. 📱",
+        "mentor": "srv-twry",
+        "lang": [
+            "Java"
+        ],
+        "tag": [
+            "Android"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/iitpConnect",
+        "title": "iitpConnect",
+        "desc": "CS354 Project",
+        "mentor": "Anu1601CS",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Image-Filters",
+        "title": "Image-Filters",
+        "desc": " ",
+        "mentor": "ishita27",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "OpenCV"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/IMDB_Portal",
+        "title": "IMDB-Portal",
+        "desc": "A utility tool to check out movies information and ratings!",
+        "mentor": "akshatnitd",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "terminal"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Insta-Downloader-Extension",
+        "title": "Insta-Downloader-Extension",
+        "desc": "Install and get download option on Instagram :rocket:",
+        "mentor": "aashutoshrathi",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/issue-type-label",
+        "title": "issue-type-label",
+        "desc": "Label issues depending on their type",
+        "mentor": "anshumanv",
+        "lang": [
+            "JS"
+        ],
+        "tag": [
+            "Github App"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Learn-Japanese",
+        "title": "Learn-Japanese",
+        "desc": " ",
+        "mentor": "roshniRam",
+        "lang": [
+            "None"
+        ],
+        "tag": [
+            "React"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/LucidCV",
+        "title": "LucidCV",
+        "desc": "A simple cv maker which takes your information and develops a CV for you!",
+        "mentor": "aswinzz",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/nervy-notebooks",
+        "title": "nervy-notebooks",
+        "desc": "Notebook regarding neural networks",
+        "mentor": "the-ethan-hunt",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Machine Learning"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/ongaku-desktop",
+        "title": "ongaku-desktop",
+        "desc": "Play anime music via terminal in a desktop app.",
+        "mentor": "anshumanv",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web", "Terminal", "Anime"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/online_leave_management_iitp",
+        "title": "Online-leave-management-IITP",
+        "desc": " ",
+        "mentor": "arundhati24",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Django"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/pokearc",
+        "title": "pokearc",
+        "desc": "lots of Pokemons",
+        "mentor": "mohitkyadav",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Webapp","Pokemon"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/abnd-track-pomodoro-timer-app",
+        "title": "pomodoro-timer-app",
+        "desc": "abnd-track-numerative created by GitHub classNameroom",
+        "mentor": "numerative",
+        "lang": [
+            "Java"
+        ],
+        "tag": [
+            "Android"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Printed-Text-recognition-and-conversion",
+        "title": "Printed-Text-recognition",
+        "desc": " ",
+        "mentor": "ishita27",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "OpenCV"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Race-the-car",
+        "title": "Race-the-car",
+        "desc": "An exciting strategy board game created on python,as a part of learning project.",
+        "mentor": "saurabhjn76",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Game"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/SoundHaven",
+        "title": "SoundHaven",
+        "desc": "A native cross platform music player in Electron and the latest Angular 6",
+        "mentor": "nityanandagohain",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Tabs-Share",
+        "title": "Tabs-Share",
+        "desc": " ",
+        "mentor": "akshatnitd",
+        "lang": [
+            "JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/TrackIt-Android",
+        "title": "TrackIt-Android",
+        "desc": "TrackIt Android",
+        "mentor": "chashmeetsingh",
+        "lang": [
+            "Java"
+        ],
+        "tag": [
+            "Android"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/Tweezy",
+        "title": "Tweezy",
+        "desc": "classNameify Twitter users based on different parameters",
+        "mentor": "aswinzz",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Machine Learning"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/synfig-tests-regressions",
+        "title": "synfig-tests-regressions",
+        "desc": "A suite for testing Synfig rendering engine for regressions",
+        "mentor": "morevnaproject",
+        "lang": [
+            "Shell"
+        ],
+        "tag": [
+            "Vector Image"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/UltimateSecurityCam",
+        "title": "UltimateSecurityCam",
+        "desc": "An un-hack-able security camera which is impossible to fool .",
+        "mentor": "NIteshx2",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Machine Learning"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/url-shortener",
+        "title": "url-shortener",
+        "desc": "URL shortener API built using node.js",
+        "mentor": "zamhaq",
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/WhatsApp-Direct-Message",
+        "title": "WhatsApp-Direct-Message",
+        "desc": "A simple app which saves you the effort of saving numbers as contacts if you wish to contact them on WhatsApp",
+        "mentor": "Akshat-Jain",
+        "lang": [
+            "Java"
+        ],
+        "tag": [
+            "Android"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/WIKIPEDIA-READER",
+        "title": "WIKIPEDIA-READER",
+        "desc": "Reads the content in wikipedia page of the query",
+        "mentor": "RITESHMOHAPATRA",
+        "lang": [
+            "Java"
+        ],
+        "tag": [
+            "Android"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/njackwinterofcode/youtube_cli_flask",
+        "title": "youtube_cli_flask",
+        "desc": " ",
+        "mentor": "stealthanthrax",
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Terminal"
+        ]
+    }
+]

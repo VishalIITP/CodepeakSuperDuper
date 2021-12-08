@@ -1,0 +1,9 @@
+.count_up{
+    z-index: 2;
+    color: whitesmoke;
+    position: relative;
+    height: 50px;
+    width: 130px;
+    font-size: 2rem;
+    font-weight: bolder;
+}

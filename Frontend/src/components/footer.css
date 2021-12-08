@@ -1,0 +1,207 @@
+.footer{
+   
+    width: 100vw;
+}    
+.foot{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    z-index: 1;
+    position: absolute;
+    color: white;
+    width: 100vw;
+    padding: 40px 0px;
+    padding-bottom: 60px;
+    height: auto;
+    background-color: #071d39;
+}
+.foot h1{
+    font-size: 1.2rem;
+
+    color: #d4d4d4;
+    margin-bottom: 9px;
+}
+.ql{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    /* padding: 0px auto; */
+    margin-left: -30px;
+}
+.ql ul{
+    padding: 0px;
+}
+.ql ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ql ul li a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 0px 100px; */
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.ico{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.ico svg{
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+.copy{
+    z-index: 1;
+   
+    color: white;
+}
+.ico p{
+    font-size: 1.1rem;
+    display: block;
+    margin: auto;
+}
+.ico a:hover{
+    text-decoration: underline;
+}
+.foot hr{
+    width: 50%;
+    background-color: white;
+}
+.together{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    /* padding-right: 40px; */
+    align-items:  flex-start;
+    padding-right: -10%;
+}
+.together h1{
+   margin-left: 73px;
+}
+.togetherLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.togetherLogo img{
+    width: 10rem;
+    height: auto;
+}
+.togetherLogo p{
+    margin-left: 25px;
+    margin-right:22px;
+    font-size: 3.5rem;
+    opacity: 0.3;
+    font-family: 'Poppins';
+}
+.hiddenHr{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    /* .ql{
+        padding: 0px 30px;
+    }    
+    .together{
+        padding-left: 50px;
+    }
+    .contact{
+        padding: 0px 50px;
+    } */
+    .icon_box
+    {
+        grid-template-columns: repeat(4,57px);
+    }
+    .icon_box svg{
+        height: 54px;
+        width: 54px;
+    }
+    .icon_box svg:hover{
+        height: 57px;
+        width: 57px;
+        transition: height 0.3s, width 0.3s;
+    }
+    .together{
+        padding-left: 40px;
+    }
+    .togetherLogo img{
+        width: 10rem;
+    }
+    
+}
+
+@media only screen and (max-width: 870px)
+{
+    .togetherLogo img{
+        width: 8rem;
+    }
+    .ql{
+        margin: 0px 20px;
+    }
+}
+@media only screen and (max-width: 870px) {
+    .hiddenHr{
+        display: block;
+    }
+    .foot{
+        grid-template-columns: revert;
+        grid-template-rows: repeat(3,auto);
+    }
+    .ql{
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .foot{
+        padding: 20px;
+    }
+    .ql ul li{
+        margin-left: 5px;
+    }
+    .foot h1{
+        font-size: 1.2rem;
+        
+    }
+    .ql ul li a{
+        font-size: 1.1rem;
+    }
+    .ico p{
+        font-size: 1.1rem;
+    }
+    .foot hr{
+        width: 80%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .contact{
+        padding: 0px;
+    }
+    .together{
+        padding: 0px;
+    }
+    .togetherLogo img{
+        width: 8rem;
+    }
+    .togetherLogo{
+        margin-top: 0;
+    }
+    .together h1{
+        margin-left:0;
+    }
+}

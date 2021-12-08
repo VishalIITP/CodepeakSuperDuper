@@ -1,0 +1,28 @@
+#dp{
+    border-radius: 50%;
+    height: 2.8em;
+    /* padding: 0.2em; */
+    /* margin: 1em; */
+}
+
+/* tr{
+    display: flex;  
+} */
+
+/* #rank , #score{
+    display: flex;
+    justify-self: center;
+} */
+
+/* #user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+p{
+    margin: 0;
+}
+
+td{
+    vertical-align: middle;
+}

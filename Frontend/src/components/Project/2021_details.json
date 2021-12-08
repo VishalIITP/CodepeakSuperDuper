@@ -1,0 +1,495 @@
+[
+    {
+        "special":true,
+        "avl":true,
+        "repo-url": "https://bit.ly/31v82Lf",
+        "title": "Docz",
+        "desc": "Docz makes it easy to write and publish beautiful interactive documentation for your code.",
+        "mentors": [
+        ],
+        "lang": [
+            "Typescript", "Javascript"
+        ],
+        "tag": [
+            "ML"
+        ]
+    },
+    {
+        "special":true,
+        "avl":true,
+        "repo-url": "https://bit.ly/3rGkKkW",
+        "title": "Typesense",
+        "desc": "Typesense is a fast, typo-tolerant search engine for building delightful search experiences.",
+        "mentors": [
+        ],
+        "lang": [
+            "C++"
+        ],
+        "tag": [
+            "Search Engine"
+        ]
+    },
+    {
+        "special":true,
+        "avl":true,
+        "repo-url": "https://bit.ly/334zKPb",
+        "title": "Mobile Security Framework",
+        "desc": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
+        "mentors": [
+        ],
+        "lang": [
+            "Python","HTML","JS"
+        ],
+        "tag": [
+            "Security","shell"
+        ]
+    },
+    {
+        "special":true,
+        "avl":true,
+        "repo-url": "https://bit.ly/3oB5IL6",
+        "title": "Chatwoot",
+        "desc": "Chatwoot is an open-source omnichannel customer support software.",
+        "mentors": [
+        ],
+        "lang": [
+            "Vue","HTML","JS","Ruby"
+        ],
+        "tag": [
+            "SCSS","shell","Web"
+        ]
+    },
+    {
+        "special":true,
+        "avl":true,
+        "repo-url": "https://bit.ly/3Iv0jxh",
+        "title": "Hoppscotch",
+        "desc": "Open source API development ecosystem.",
+        "mentors": [
+        ],
+        "lang": [
+            "Vue","JS","Typescript"
+        ],
+        "tag": [
+            "Security","shell"
+        ]
+    },
+    {
+
+        "repo-url": "https://github.com/RAJAGOPALAN-GANGADHARAN/DConsole",  
+        "title": "DConsole",
+        "desc": "A console application that can be used to debug and test your code.",
+        "mentors": [
+            "RAJAGOPALAN-GANGADHARAN"
+        ],
+        "lang": [
+            "Go", "HTML", "CSS", "JS", "Python", "C++"
+        ],
+        "tag": [
+             "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/akshitagupta15june/Face-X",
+        "title": "Face-X",
+        "desc": "Demonstration of different algorithms and operations on faces. Despite a variety of open-source face recognition frameworks available, there was no ready-made solution to implement.",
+        "mentors": [
+            "akshitagupta15june", "anamika-pal"
+        ],
+        "lang": [
+            "Python", "Jupyter Notebook"
+        ],
+        "tag": [
+            "ML"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/Saransh-cpp/BookRentApp-Chapter3",
+        "title": "Chapter3 - Book renting app",
+        "desc": "An e-commerce application specifically made for renting books. Functionality has been finalized, albeit with minor issues.",
+        "mentors": [
+            "Saransh-cpp"
+        ],
+        "lang": [
+            "Dart"
+        ],
+        "tag":["AppDev", "FLutter","Firebase"]
+    },
+    {
+        "repo-url": "https://github.com/Sparsh1212/gsocanalyzer",
+        "title": "GSOC Analyzer",
+        "desc": "A blazingly fast tool to get the past 12 year analytics of any organisation selected in GSoC Search by tech-stack / organisation name / category or by topic.",
+        "mentors": [
+            "sparsh1212"
+        ],
+        "lang": [
+            "JavaScript", "HTML", "CSS", "Python"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/StrixROX/SAAR-IITP-Revamped/tree/revamp2",
+        "title": "SAAR Website Revamp",
+        "desc": "This project is aimed to revamp the existing website with simple, elegant, and modern UI.",
+        "mentors": [
+            "rdev12","StrixROX"
+        ],
+        "lang": [
+            "HTML","JS"
+        ],
+        "tag": [
+            "Web","SAAS"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/HITK-TECH-Community/Community-Website/",
+        "title": "Community Website",
+        "desc": "A website for the community of HITK-TECH.",
+        "mentors": [
+            "jackfrost13"
+        ],
+        "lang":[
+            "HTML", "CSS", "JavaScript", "SCSS"
+        ],
+        "tag":[
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/mohit200008/Gam-Learn",
+        "title": "Gam-Learn",
+        "desc": "project has been designed an quiz portal which will be in a form of a game.",
+        "mentors": [
+            "mohit200008"
+        ],
+        "lang": [
+            "JavaScript", "CSS","HTML"
+        ],
+        "tag": [
+            "GameDev", "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/ayushyadav9/face-attendance",
+        "title": "Face-Attendance",
+        "desc": "A face recognition system that uses a neural network to recognize faces.",
+        "mentors": [
+            "ayushyadav9"
+        ],
+        "lang": [
+            "Python", "CSS", "JavaScript", "HTML"
+        ],
+        "tag": [
+            "ML", "Web"
+        ]
+    },
+    {
+        "repo-url": "https://rajagopalan-gangadharan.github.io/JS-OS/" ,
+        "title": "JS-OS",
+        "desc": "A web application that simulates a real operating system.",
+        "mentors": [
+            "RAJAGOPALAN-GANGADHARAN"
+        ],
+        "lang": [
+            "JavaScript", "HTML", "CSS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/AmreshSinha/Spotify-Cards-API", 
+        "title": "Spotify-Cards-API",
+        "desc": "A unofficial open-source Spotify PromoCards API built to serve Song Cards.",
+        "mentors": [
+            "AmreshSinha"
+        ],
+        "lang": [
+            "JavaScript", "HTML", "CSS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },  
+    {
+        "repo-url": "https://github.com/akshat0313/Ak-Meet",
+        "title": "Ak-Meet",
+        "desc": "This Project is like Gmeet where we can organise a meeting on a particular date and time, And this application will notify you by sending email on the account by which you have logged in.",
+        "mentors": [
+            "akshat0313"
+        ],
+        "lang": [
+            "JavaScript", "HTML", "CSS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/shelcia/kaagitham"  ,
+        "title": "kaagitham",
+        "desc": "A web application that can be used to create a meetup.",
+        "mentors": [
+            "shelcia"
+        ],
+        "lang": [
+            "JavaScript", "HTML", "CSS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/shelcia/noobcodes-docs",
+        "title": "noobcodes-docs",
+        "desc": "A web application that can be used to create a meetup.",
+        "mentors": [
+            "shelcia"
+        ],
+        "lang": [
+            "JavaScript", "HTML", "CSS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/Pritishchugh22/HateEater",
+        "title": "HateEater",
+        "desc": "detect news/posts that spread hatred.",
+        "mentors": [
+            
+            "Pritishchugh22"
+        ],
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Machine Learning"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/PranshuPandya/locus-stolker-app",
+        "title": "locus-stolker-app",
+        "desc": "A live location tracking app which allow user to form groups and share their location.",
+        "mentors": [
+            "PranshuPandya"
+        ],
+        "lang": [
+            "Dart"
+        ],
+        "tag": [
+            "AppDev", "FLutter","Firebase","Google MAP API"
+        ]
+    },  
+    {
+        "repo-url": "https://github.com/fliptrail/non-monotonic-descent",
+        "title": "non-monotonic-descent",
+        "desc": "A non-monotonic descent algorithm.",
+        "mentors": [
+            "fliptrail"
+        ],
+        "lang": [
+            "None"
+        ],
+        "tag":["None"]
+    },
+    {
+        "repo-url": "https://github.com/VishalIITP/CodepeakSuperDuper",
+        "title": "CodepeakSuperDuper",
+        "desc": "Adding backend to the existing Codepeak Website using Django.",
+        "mentors": [
+            "VishalIITP","KartuzGupta"
+        ],
+        "lang": [
+            "ReactJS", "Django"
+        ],
+        "tag": [
+            "Web", "Backend"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/rohitkumar9710/CP-almanac",
+        "title": "CP-almanac",
+        "desc": "A single point access to all the solutions of an everyday programmer’s perplexities!",
+        "mentors": [
+            "rohitkumar9710","kishlayraj-9"
+        ],
+        "lang": [
+            "c/c++"
+        ],
+        "tag": [
+            "DS-ALGo","CP"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/PrateekUp/Njack-website",
+        "title": "Njack-Website",
+        "desc": "Creating a responsive web application for coding club of IIT Patna - NJACK.",
+        "mentors": [
+            "Aditya61101","PrateekUp"
+        ],
+        "lang": [
+            "HTML","CSS","JS","ReactJS"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/RupakBiswas-2304/File_authentication",
+        "title": "File-Auth ",
+        "desc": "A  secure-authentication system which verifies users by verifying an uploaded file.",
+        "mentors": [
+            "RupakBiswas-2304"
+        ],
+        "lang": [
+            "python"
+        ],
+        "tag": [
+            "Web","React"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/spandey1296/Healthcare-Management-System",
+        "title": "Healthcare-Management-System",
+        "desc": "A web application for managing healthcare services.",
+        "mentors": [
+            "spandey1296"
+        ],
+        "lang": [
+            "Java"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/sarthak-diwan/jses",
+        "title": "JSES- Just Some Everyday Stuff",
+        "desc": "A web app made with React and CryptoJS for various hashings, encodings and encryptions.",
+        "mentors": [
+            "sarthak-diwan"
+        ],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web","reactJS"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/harshagrawal523/Portfolyser",
+        "title": "Portfolyser",
+        "desc": "A portfolio website generator. You can enter your details and it will provide you with ready-made HTML code for your very own portfolio page.",
+        "mentors": [
+            "GunjanDhanuka","harshagrawal523"
+        ],
+        "lang": [
+            "HTML","Python","Node.js"
+        ],
+        "tag": [
+            "Web","nodeJS"
+        ]
+    },
+    {
+        "repo-url": "https://github.com/ankit11hab/myBolooTeach",
+        "title": "Assessment web-app",
+        "desc": "A web application where a teacher as an admin can conduct custom quizzes to evaluate students. It will present features like student's relative performance and weak points too.",
+        "mentors": [
+            "ankit11hab"
+        ],
+        "lang": [
+            "HTML","CSS","Django"
+        ],
+        "tag": [
+            "Web"
+        ]
+    },
+    {
+        "value":true,
+        "repo-url": "https://github.com/ArchismanKarmakar/business-website-codepeak2021",  
+        "title": "Hotel Website",
+        "desc": "This project is for getting a business ready website similar to that of ITC Hotels team. So, let's get started. It will be a very good practice for MERN stack web dev. So, let's begin!",
+        "mentors": [
+            "ArchismanKarmakar"
+        ],
+        "lang": [
+             "ReactJS", "Node.js"
+        ],
+        "tag": [
+           "bootstrap","express","mongodb","MERN Stack Web Dev"
+            
+        ]
+        
+    },
+
+    {
+        "value":true,
+        "special":true,
+        "avl":false,
+        "repo-url": "https://github.com/codingiitg/CodePeak-beginner-Cpp",  
+        "title": "Codepeak-Beginner-Cpp",
+        "desc": " ",
+        "mentors": [
+            " "
+        ],
+        "lang": [
+             "C++"
+        ],
+        "tag": [
+             "None","Beginner"
+        ]
+    },
+    {
+        "special":true,
+        "avl":false,
+        "repo-url": "https://github.com/codingiitg/CodePeak-Beginner-Djanogo",  
+        "title": "Codepeak-Beginner-Django",
+        "desc": " ",
+        "mentors": [
+            " "
+        ],
+        "lang": [
+             "Django"
+        ],
+        "tag": [
+             "Web","Backend","Beginner"
+        ]
+    },
+    {     "special":true, 
+         "avl":false,
+        "repo-url": "https://github.com/codingiitg/CodePeak-beginner-flutter-project",  
+        "title": "Codepeak-Beginner-Flutter",
+        "desc": " ",
+        "mentors": [
+            " "
+        ],
+        "lang": [
+             "Flutter"
+        ],
+        "tag": [
+             "Android","Beginner"
+        ]
+    },
+    {
+        "special":true,
+        "avl":false,
+        "repo-url": "https://github.com/codingiitg/Codepeak-beginner-HTML-task",  
+        "title": "Codepeak-Beginner-HTML",
+        "desc": " ",
+        "mentors": [
+            " "
+        ],
+        "lang": [
+             "HTML"
+        ],
+        "tag": [
+             "Web","Frontend","Beginner"
+        ]
+    }
+    
+    
+]

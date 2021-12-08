@@ -1,0 +1,45 @@
+.front_ext{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 40px;
+}
+.front_ext h1{
+    text-align: left;
+    color: rgb(164 195 224);
+    font-size: 1.4rem;
+}
+
+.front_ext p{
+    margin-bottom: auto;
+    color: white;
+    font-size: 1.1rem;
+    text-align: left;
+}
+.front_ext a img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+@media only screen and (max-width : 800px) {
+    .front_ext{
+        padding: 25px;
+    }
+    
+}
+@media only screen and (max-width : 600px) {
+    .front_ext h1{
+        font-size: 1.2rem;
+    }
+    .front_ext a img{
+        margin-bottom: 10px;
+        width: 25px;
+        height: 25px;
+    }
+    
+}
+.exp_hr{
+    color: white;
+    width: 200px;
+    margin-top: 4px;
+}
