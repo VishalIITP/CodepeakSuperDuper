@@ -1,0 +1,473 @@
+[
+    {
+        "repo-url": "https://github.com/NJACKWinterOfCode/NJACKWinterOfCode.github.io",
+        "title": "NJACKWinterOfCode",
+        "desc": "Website for NJACK Winter of Code 2020.",
+        "mentors": ["s-ayush2903","Mehulipal","Ankit7Das"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/Team-Tomato/QP-Generator",
+        "title": "QP-Generator",
+        "desc": "A web app to generate question paper with T5 parapharser model to rephrase the questions.",
+        "mentors": ["AkbarHabeeb"],
+        "lang": [
+            "React","Flask"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/harsh-9in/Blogger",
+        "title": "Blogger",
+        "desc": "A basic blogging application which includes user to create an account and post their views.",
+        "mentors": ["harsh-9in"],
+        "lang": [
+            "Python","HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/garimasingh128/ToDoista",
+        "title": "ToDoista",
+        "desc": "A ToDo app made using MERN to keep a track of your activities on a single click.",
+        "mentors": ["garimasingh128"],
+        "lang": [
+            "MERN"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/garimasingh128/profext",
+        "title": "profext",
+        "desc": "A profile search engine and chrome extension for accessing my all social media profile in one tap.",
+        "mentors": ["garimasingh128"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web","(Chrome Extension)"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/Abhijit2505/edualgo-app-demo",
+        "title": "edualgo-app-demo",
+        "desc": "This repository contains the demo application of the package edualgo in flutter and dart.",
+        "mentors": ["Abhijit2505"],
+        "lang": [
+            "Flutter"
+        ],
+        "tag": [
+            "Android"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/upes-open/Placement-Manager",
+        "title": "Placement-Manager",
+        "desc": "A Flask application used to manage and maintain placement related data, activities and more.",
+        "mentors": ["josharsh"],
+        "lang": [
+            "HTML","Python"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/shelcia/CRM",
+        "title": "CRM",
+        "desc": "Customer relations management tool built in MERN stack.",
+        "mentors": ["shelcia"],
+        "lang": [
+            "HTML","ReactJS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/shelcia/Weather-app",
+        "title": "Weather-app",
+        "desc": "Weather app using React",
+        "mentors": ["shelcia"],
+        "lang": [
+            "HTML","ReactJS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/shelcia/Socialgram",
+        "title": "Socialgram",
+        "desc": "Clone of Facebook with limited features.",
+        "mentors": ["shelcia"],
+        "lang": [
+            "HTML","ReactJS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/s-ayush2903/Recipebook",
+        "title": "Recipebook",
+        "desc": "Get Recipes and cook yummy food.",
+        "mentors": ["s-ayush2903"],
+        "lang": [
+            "Kotlin","Java"
+        ],
+        "tag": [
+            "Android"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/s-ayush2903/KeepItClean",
+        "title": "KeepItClean",
+        "desc": "A phenomenal implementation of Pure Architecture.",
+        "mentors": ["s-ayush2903"],
+        "lang": [
+            "Kotlin"
+        ],
+        "tag": [
+            "Android"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/piyushchauhan/iitp-discord-bot",
+        "title": "IITP-discord-bot",
+        "desc": "A discord bot for IIT Patna community on any discord server.",
+        "mentors": ["piyushchauhan"],
+        "lang": [
+            "JS"
+        ],
+        "tag": [
+            "Discord-Bot"
+        ] 
+    },
+    
+    
+    {
+        "repo-url": "https://github.com/RAJAGOPALAN-GANGADHARAN/DConsole",
+        "title": "DConsole",
+        "desc": "Simple Cross Platform Local Logging tool.",
+        "mentors": ["RAJAGOPALAN-GANGADHARAN"],
+        "lang": [
+            "C++"
+        ],
+        "tag": [
+            "None"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/HarshCasper/Rotten-Scripts",
+        "title": "Rotten-Scripts",
+        "desc": "Scripts that will make you go WOW.",
+        "mentors": ["harshcasper"],
+        "lang": [
+            "JS","Python"
+        ],
+        "tag": [
+            "Script"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/PragatiVerma18/Snippet-Share",
+        "title": "Snippet-Share",
+        "desc": "This is a snippet sharing app that can be used to share snippets of code and more.",
+        "mentors": ["PragatiVerma18"],
+        "lang": [
+            "Python","HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/PragatiVerma18/Snappify",
+        "title": "Snappify",
+        "desc": "A Screenshot app with Screenshot API, that create screenshots of websites with the help of the input URL.",
+        "mentors": ["PragatiVerma18"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/RoboticsClubIITJ/ML-DL-implementation",
+        "title": "ML-DL-implementation",
+        "desc": "Implementing ML and DL algorithms from scratch in python using numpy.",
+        "mentors": ["rohansingh9001"],
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Machine Learning"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
+        "title": "Awesome-portfolio-websites",
+        "desc": "An OS project to provide free and beautiful templates for building their portfolio websites.",
+        "mentors": ["smaranjitghose","anushbhatia"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/akshitagupta15june/Face-X",
+        "title": "Face-X",
+        "desc": "Recognition of faces by model training using OPENCV.",
+        "mentors": ["akshitagupta15june"],
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "OpenCV"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/akshitagupta15june/vehicle_speed_estimator",
+        "title": "Vehicle speed estimator",
+        "desc": "It estimates speed of vehicles.",
+        "mentors": ["akshitagupta15june"],
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "OpenCV"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/akshitagupta15june/lane_detection_opencv",
+        "title": "Lane detection opencv",
+        "desc":"The lane detection has proved to be an efficient technique to prevent accidents in Intelligent Transportation Systems.",
+        "mentors": ["akshitagupta15june"],
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "OpenCV"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/ankingcodes/codemon",
+        "title": "Codemon",
+        "desc": "CLI tool to ace competitive programming contests.",
+        "mentors": ["ankingcodes"],
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "CP"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/lordlabuckdas/gtfoo",
+        "title": "gtfoo",
+        "desc": "Go program to fetch gtfobins.",
+        "mentors": ["lordlabuckdas","7phalange7"],
+        "lang": [
+            "Go"
+        ],
+        "tag": [
+            "Security"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/plazzy99/Heal-O-Chat",
+        "title": "Heal-O-Chat",
+        "desc": "Heal-O-Chat is a Social Media Application for people who have been feeling less motivated in life or are losing hope.",
+        "mentors": ["plazzy99"],
+        "lang": [
+            "Java"
+        ],
+        "tag": [
+            "Android"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/mexili/incogly",
+        "title": "Incogly",
+        "desc": "Incog.ly is a peer to peer video conferencing app which keeps your identity anonymous.",
+        "mentors": ["sansyrox"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/mexili/cssify",
+        "title": "CSSify",
+        "desc": "CSSify provides a solution to all these problems, by offering a rock solid base which is customisable in all it's aspects.",
+        "mentors": ["sansyrox"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/mexili/skribbl",
+        "title": "Skribbl",
+        "desc": " ",
+        "mentors": ["sansyrox","madhavrathi"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/abelandcain/Saajha-Kare",
+        "title": "Saajha-Kare",
+        "desc": "Saajha Kare is a file sharing app.",
+        "mentors": ["abelandcain"],
+        "lang": [
+            "Flutter"
+        ],
+        "tag": [
+            "Android"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/diyajaiswal11/Bloggitt",
+        "title": "Bloggitt",
+        "desc": "A blogging app for users to post their views with Django, HTML, CSS, Bootstrap.",
+        "mentors": ["diyajaiswal11"],
+        "lang": [
+            "Python","HTML"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/sakshamj74/IPL-Analysis",
+        "title": "IPL Analysis",
+        "desc": "This project is about analyzing the previous year's IPL data to get some interesting insights.",
+        "mentors": ["sakshamj74"],
+        "lang": [
+            "Python"
+        ],
+        "tag": [
+            "Data Science"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/todi-2000/Quiz-App",
+        "title": "Quiz App",
+        "desc": "A Quiz App where users can register, attempt quiz, view their scores and leaderboard.",
+        "mentors": ["todi-2000"],
+        "lang": [
+            "Python","HTML","CSS"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/dheerajkotwani/NewsUp",
+        "title": "NewsUp",
+        "desc": "News Up is an Android Application to fetch Latest Short News in different categories to keep you updated.",
+        "mentors": ["dheerajkotwani"],
+        "lang": [
+            "Kotlin"
+        ],
+        "tag": [
+            "Android"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/AbsurdNerd/SimplifyReports",
+        "title": "Simplify Reports",
+        "desc": " An Android app with Django REST Framework which simplifies reporting cases of fire, crimes and calling an ambulance.",
+        "mentors": ["dheerajkotwani"],
+        "lang": [
+            "Kotlin"
+        ],
+        "tag": [
+            "Android"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/adityabisoi/github-rest-api-v3",
+        "title": "Github-rest-api-v3",
+        "desc": "GitHub REST API playground.",
+        "mentors": ["adityabisoi"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "None"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/raghavSharma1472/RecipeBookFlutter",
+        "title": "Recipe Book Flutter",
+        "desc": "App to create a recipe book using Flutter.",
+        "mentors": ["raghavSharma1472"],
+        "lang": [
+            "Flutter"
+        ],
+        "tag": [
+            "Android"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/sshekhar3000/PLANET_HUNT",
+        "title": "PLANET HUNT",
+        "desc": "Write 3rd person 3D arcade game with finished controls and requires a score card and coin collection C# script.",
+        "mentors": ["sshekhar3000"],
+        "lang": [
+            "C#","Unity"
+        ],
+        "tag": [
+            "GameDev"
+        ] 
+    },
+   
+    {
+        "repo-url": "https://github.com/Canvasbird/canvasboard",
+        "title": "CanvasBoard",
+        "desc": "An interactive board with plugins to replace the need of multiple platforms for teaching, presenting or explaining your ideas.",
+        "mentors": ["Kajol-Kumari"],
+        "lang": [
+            "HTML","JS","TypeScript"
+        ],
+        "tag": [
+            "Web"
+        ] 
+    },
+    {
+        "repo-url": "https://github.com/Neilblaze/Anyxz",
+        "title": "Anyxz",
+        "desc": "Ez Video Background Semantic Segmentation.",
+        "mentors": ["Neilblaze"],
+        "lang": [
+            "HTML","CSS","JS"
+        ],
+        "tag": [
+            "Web"
+        ]  
+    }
+]

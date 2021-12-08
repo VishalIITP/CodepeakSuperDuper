@@ -1,0 +1,78 @@
+.reward_head{
+    color: white;
+    padding-top: 100px;
+}
+.reward_head hr{
+    display: block;
+    margin: auto;
+    width: 340px;
+    height: 2px;
+}
+.rewardBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 750px;
+    margin: 30px auto;
+    border: 1px solid #a4c3e0;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10.5px 0.5px #f5f5dc4a;
+    /* background-color: #071d3985; */
+    background-color: rgb(13,35,59);
+}
+.rewardLogo{
+    width: 250px;
+    height: auto;
+}
+.right{
+    flex-direction: row-reverse;
+}
+.right img{
+    padding-right: 30px;
+}
+.left img{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.left .rewardComp{
+    padding-left: 10px;
+}
+.rewImg{
+    display: flex;
+    flex-direction: column;
+}
+.rewImg img{
+    width: 200px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+@media only screen and (max-width: 800px) {
+    .reward_head hr{
+        width: 250px;
+    }
+    .rewardBox{
+        flex-direction: column;
+        width: 80%;
+    }
+    .rewardLogo{
+        margin-top: 40px;
+        width: 150px;
+    }
+    .right img{
+        padding: 0px;
+    }
+    .left img{
+        padding: 0px;
+    }
+    .rewImg{
+        flex-direction: row;
+        
+    }
+    .rewImg img{
+        width: 120px;    
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
