@@ -17,7 +17,7 @@ npm i
 npm run start
 ```
 ## Steps for Contributing to Frontend
-> - Select a particular issue and let us know on discord that you want to work on it. <br>
+> - Select a particular issue and let us know on discord or the comment section of that issue that you want to work on it. <br>
 > - All communication will be done through Discord Channel.  <br>
 > - [Discord Channel Link](https://discord.gg/xhQ9N9Z3jc) <br>
 > - We will assign you the issue and you need to make the necessary changes. <br>
