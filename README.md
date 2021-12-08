@@ -16,7 +16,7 @@ The project is for full-stack web development from beginner to advanced <br>
 - Any question about the project is welcome here. You can check out the issues once they appear on the repository. If you wish, you can also add them. <br>
 
 ## Steps for Contributing
-> - Select a particular issue and let us know on discord that you want to work on it. <br>
+> - Select a particular issue and let us know on discord or in the comment section of that issue that you want to work on it. <br>
 > - All communication will be done through Discord Channel.  <br>
 > - [Discord Channel Link](https://discord.gg/xhQ9N9Z3jc) <br>
 > - We will assign you the issue and you need to make the necessary changes. <br>
