@@ -5,5 +5,7 @@ We have uploaded the whole code of the current CODEPEAK wesbite for the convinie
 **If not then [ReactJS Setup Video](https://youtu.be/-mJFZp84TIY)**<br>
 >Go inside the **Frontend** folder (cd Frontend) <br>
 >Open New Terminal and write following commands <br>
-**npm i** <br>
-**npm run start**
+```
+npm i
+npm run start
+```
