@@ -24,7 +24,8 @@ npm run start
 > - Create a pull request and send the screenshots or videos of the changes on our discord channel. <br>
 > - Once the changes are apporved ,we will merge it and award you points. <br>
 > - If the work is not up to the mark, then we will suggest some changes and guide you. <br>
-> - For more info. go through the [Student Guide](https://bit.ly/3c9UkPA)
+> - For more info. go through the [Student Guide](https://bit.ly/3c9UkPA) <br>
+ 
 ## How to push changes ??
 >Setup the repository in your local machine and make the necessary changes. <br>
 >Open Terminal and write the following commands : <br>
@@ -34,4 +35,6 @@ git add .
 git commit -m '[Changes you made]'
 git push origin [your branch]
 ```
+
+### Feel free to suggest improvements in other portions of the website.
 ### Will love to hear from you all.
