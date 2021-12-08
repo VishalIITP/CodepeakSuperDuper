@@ -31,7 +31,7 @@ npm run start
 ```
 git status
 git add .
-git commit -m ' *Changes you made*'
-git push origin *your branch*
+git commit -m '[Changes you made]'
+git push origin [your branch]
 ```
 ### Will love to hear from you all.
