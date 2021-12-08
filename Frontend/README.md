@@ -1,5 +1,5 @@
 # Codepeak-frontend
-We ([Kartikay Gupta](https://github.com/KartuzGupta) and [Vishal Yadav](https://github.com/VishalIITP)) have uploaded the whole code of the current CODEPEAK wesbite for the convinience of the contributors.
+Hello Guys!! [Kartikay Gupta](https://github.com/KartuzGupta) and [Vishal Yadav](https://github.com/VishalIITP) are the mentors for this project.
 ## Steps for running the Frontend
 **Prerequisite: ReactJS should be setup on your system**<br>
 **If not then [ReactJS Setup Video](https://youtu.be/-mJFZp84TIY)**<br>
