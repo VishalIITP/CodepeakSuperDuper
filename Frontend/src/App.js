@@ -15,11 +15,13 @@ import Reward from './pages/Reward/reward';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/SignupStud';
 import SignupMentor from './pages/Signup/SignupMentor';
+import ScrollToTop from './components/ScrollToTop';
 //import TeamTemp from './pages/leaderboard_temp'
 function App() {
   return (
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <ScrollToTop/>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/register" component={Conduct}/>
