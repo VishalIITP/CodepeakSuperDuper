@@ -16,7 +16,7 @@ width: 100%;
 bottom: 50px;
 height: 20px;
 font-size: 3rem;
-z-index: 2;
+z-index: 4;   //to be visible in signup page as it contains items upto z index 3
 cursor: pointer;
 color: white;
 `;

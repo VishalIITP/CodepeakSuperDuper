@@ -12,6 +12,9 @@ import Leaderboard from './pages/leaderboard_temp';
 import Project from './pages/Project';
 import Team from './pages/teamnew'
 import Reward from './pages/Reward/reward';
+import Login from './pages/Login/Login';
+import Signup from './pages/Signup/SignupStud';
+import SignupMentor from './pages/Signup/SignupMentor';
 //import TeamTemp from './pages/leaderboard_temp'
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/project" component={Project} />
           <Route path="/team" component={Team} />
           <Route path="/reward" component={Reward} />
+          <Route path="/login" component={Login} />
+          <Route path="/signup/student" component={Signup} />
+          <Route path="/signup/mentor" component={SignupMentor} />
         </Switch>
         {/* <Footer/> */}
       </BrowserRouter>
