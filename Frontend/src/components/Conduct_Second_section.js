@@ -46,7 +46,7 @@ function Card() {
                   No matter whether you are a beginner or an expert in open source, we have a space for everyone. Register now to become part of one of the largest open source events.
                 </p></div>
                 <div className="d-grid gap-2 col-6 mx-auto register-button">
-                  <Link to="/signup/student" >
+                  <Link to="/register/signup/student" >
                     <button className="btn btn-primary btn-apply btn-phone btn-tab" type="button">
                       Register
                     </button>
@@ -69,7 +69,7 @@ function Card() {
                   Are you a specialist in one or more projects? Then as a mentor, you will have to guide a bunch of students and help them to expertise in the field of open source contributions.
                 </p></div>
                 <div className="d-grid gap-2 col-6 mx-auto">
-                  <Link to="/signup/mentor" >
+                  <Link to="/register/signup/mentor" >
                     <button className="btn btn-primary btn-apply" type="button">
                       Register
                     </button>
