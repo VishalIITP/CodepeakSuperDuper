@@ -209,9 +209,11 @@ td {
 .pagination-right input {
 	max-width: 5em;
 }
+
 #pageof {
 	vertical-align: middle;
 	padding: 1em;
+	color: white;
 }
 
 .pagination-left button {
