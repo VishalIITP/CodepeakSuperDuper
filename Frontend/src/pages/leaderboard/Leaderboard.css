@@ -1,42 +1,105 @@
 body {
-  font-family: "Gilroy-Medium";
+	font-family: "Gilroy-Medium";
 }
 
 .space {
-  padding-top: 20vh;
+	padding-top: 20vh;
 }
 .bg-custom {
-  background-color: #12263f;
+	background-color: #12263f;
 }
 
 .title {
-  color: #fff;
-  background-color: #12263f;
-  font-size: 2em;
+	color: #fff;
+	background-color: #12263f;
+	font-size: 2em;
+}
+
+.b-table {
+	border-collapse: separate;
+	border-spacing: 0 0.75rem;
+	background-color: transparent;
+	color: #fff;
+	text-align: start;
 }
 
 .tablee {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
-    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
-    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-  border-radius: 1em;
-  background-color: white;
+	/* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+		rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+		rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+	background-color: transparent;
 }
 
 thead {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-  font-size: 1.2em;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+		rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	font-size: 1.2em;
+	border-radius: 1rem;
 }
+.color0 {
+	background-color: rgba(235, 218, 249, 255);
+}
+
+.color1 {
+	background-color: rgba(218, 246, 237, 255);
+}
+
+.color2 {
+	background-color: rgb(182, 79, 94);
+}
+
+.color3 {
+	background-color: rgba(255, 222, 212, 255);
+}
+
+.color4 {
+	background-color: rgb(149, 188, 182);
+}
+
+.b-table th {
+	padding: 1.3rem 2rem !important;
+}
+
+.b-table td {
+	color: rgba(59, 66, 64, 255);
+	font-size: 1.3rem;
+	padding-left: 2rem !important;
+}
+
+td .star-icon {
+	margin-left: 2rem;
+}
+
+tr td:first-child {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+tr td:last-child {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+tr th:first-child {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+tr th:last-child {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
 thead th {
-  padding: 0.7em !important;
+	padding: 0.7em !important;
+	background-color: rgb(14, 13, 13) !important;
 }
 
 table {
-  margin-bottom: 0 !important;
-  padding: 0;
-  background-color: #fff;
-  border-radius: 1em;
+	margin-bottom: 0 !important;
+	padding: 0;
+	background-color: #fff;
+	border-radius: 1em;
 }
 
 /* #bggg{
@@ -48,131 +111,147 @@ table {
 .leader-stars,
 .leader-twinkling,
 .leader-clouds {
-  position: absolute;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 350px;
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 350px;
 }
 
 .leader-stars {
-  z-index: -2;
-  background: #12263f url("../Images/stars.svg") repeat top
-    center;
+	z-index: -2;
+	background: #12263f url("../Images/stars.svg") repeat top center;
 }
 
 .leader-twinkling {
-  z-index: -1;
-  background: transparent url("../Images/twinkle_bg1.png") repeat top center;
-  animation: move-twink-back 200s linear infinite;
+	z-index: -1;
+	background: transparent url("../Images/twinkle_bg1.png") repeat top center;
+	animation: move-twink-back 200s linear infinite;
 }
 
 .leader-clouds {
-  z-index: 2;
-  background: transparent url("https://image.ibb.co/bT4N7T/clouds.png") repeat
-    top center;
-  animation: move-clouds-back 200s linear infinite;
+	z-index: 2;
+	background: transparent url("https://image.ibb.co/bT4N7T/clouds.png") repeat
+		top center;
+	animation: move-clouds-back 200s linear infinite;
 }
 
 @keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -10000px 5000px;
-  }
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -10000px 5000px;
+	}
 }
 
 @keyframes move-clouds-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 10000px 0;
-  }
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 10000px 0;
+	}
 }
-.bg-relative{
-  position: absolute;
-  top: 40vh;
-  background-color: #12263f;
-  padding-top: 20vh;
-
+.bg-relative {
+	position: absolute;
+	top: 40vh;
+	background-color: #12263f;
+	padding-top: 20vh;
 }
 
 /* Row CSS */
 
 #dp {
-  border-radius: 50%;
-  height: 2.8em;
-  /* padding: 0.2em; */
-  /* margin: 1em; */
+	border-radius: 50%;
+	height: 2.8em;
+	/* padding: 0.2em; */
+	/* margin: 1em; */
 }
 p {
-  margin: 0;
+	margin: 0;
 }
 
 td {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 
 /* Pagination Nav */
 .pagination {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 @media only screen and (max-width: 1000px) {
-  .pagination {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  .pagination-left {
-    justify-content: space-between;
-  }
-  .pagination-right input {
-    max-width: 5em;
-  }
+	.pagination {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 1em;
+	}
+	.pagination-left {
+		justify-content: space-between;
+	}
+	.pagination-right input {
+		max-width: 5em;
+	}
 }
 
 .pagination-left,
 .pagination-right {
-  margin-left: 2em;
-  margin-right: 1em;
-  display: flex;
-  align-items: center;
+	margin-left: 2em;
+	margin-right: 1em;
+	display: flex;
+	align-items: center;
 }
 .pagination-right input {
-  max-width: 5em;
+	max-width: 5em;
 }
 #pageof {
-  vertical-align: middle;
-  padding: 1em;
+	vertical-align: middle;
+	padding: 1em;
 }
 
 .pagination-left button {
-  border: 1px solid rgb(255, 255, 255);
-  color: #2e63a5;
-  background-color: rgb(204, 231, 255);
-  padding: 0.35em;
+	border: 1px solid rgb(255, 255, 255);
+	color: #2e63a5;
+	background-color: rgb(204, 231, 255);
+	padding: 0.35em;
 }
 
 .pagination-left button:disabled {
-  color: #2e64a57a;
-  background-color: rgba(204, 231, 255, 0.5);
+	color: #2e64a57a;
+	background-color: rgba(204, 231, 255, 0.5);
 }
 
 .pagination-right input {
-  text-align: center;
-  border-color: #12263f85;
+	text-align: center;
+	border-color: #12263f85;
 }
 
 .pagination-right span {
-  background-color: rgb(204, 231, 255);
-  color: #2e63a5;
-  /* border-color: #12263f85; */
-  border: none;
+	background-color: rgb(204, 231, 255);
+	color: #2e63a5;
+	/* border-color: #12263f85; */
+	border: none;
+}
+
+.go-to-page {
+	display: flex;
+}
+
+.go-to-page span {
+	border: none;
+	border-radius: 0%;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+
+.go-to-page input {
+	border: none;
+	border-radius: 0%;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
 }
