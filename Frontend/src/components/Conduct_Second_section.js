@@ -27,11 +27,11 @@ function Card() {
                   Join the CodePeak Family, this is your chance to gain valuable experience, pull off awesome events, and build a strong network with similarly motivated individuals helping you in our future professional endeavours.
                 </p></div>
                 <div className="d-grid gap-2 col-6 mx-auto">
-                  <a href="https://forms.gle/AfMsnBUXheGVuCHt5" target="_blank" rel="noreferrer">
+                <Link to="/register/signup/ca" >
                     <button className="btn btn-primary btn-apply btn-tab" type="button">
                       Register
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
