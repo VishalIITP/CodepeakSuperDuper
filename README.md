@@ -28,7 +28,7 @@ The project is for full-stack web development from beginner to advanced <br>
 ## Setup the project
 >Fork the repository <br>
 ```
-git clone [repo link]
+git clone [forked repo link]
 ```
 >Then Push the changes <br>
 
