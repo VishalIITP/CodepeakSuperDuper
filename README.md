@@ -31,6 +31,7 @@ The project is for full-stack web development from beginner to advanced <br>
 git clone [forked repo link]
 ```
 >Then Push the changes <br>
+>Then Create a PR <br>
 
 ## How to push changes ??
 >Setup the repository in your local machine and make the necessary changes. <br>
