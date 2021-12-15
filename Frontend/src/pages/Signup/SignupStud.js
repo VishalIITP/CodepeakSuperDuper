@@ -98,10 +98,8 @@ const Signup = () => {
                     />
                 </div>
                 <div className="box2">
-
                     <label for="fresher" className="chklabel">First Time participant of NWoC/ Code Peak </label>
                     <input className="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input" style={{marginLeft: "10px"}}/>
-
                 </div>
 
                 <div className="box">
