@@ -39,7 +39,7 @@ git clone [repo link]
 git status
 git add .
 git commit -m '[Changes you made]'
-git push origin [your branch]
+git push origin main
 ```
 
 ## Connect with us on:
