@@ -35,6 +35,7 @@ git add .
 git commit -m '[Changes you made]'
 git push origin main
 ```
+>Then Create a PR <br>
 
 ### Feel free to suggest improvements in other portions of the website.
 ### Will love to hear from you all.
