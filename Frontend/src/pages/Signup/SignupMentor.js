@@ -15,7 +15,7 @@ const Signup = () => {
             <Navigation />
             <Animatedbg />
             <div className="containersign">
-                <h1>Sign Up</h1>
+            <h1>Sign Up <span>Mentor</span></h1>
                 <div className="box">
                     <label for="email">Enter Your email</label>
                     <input

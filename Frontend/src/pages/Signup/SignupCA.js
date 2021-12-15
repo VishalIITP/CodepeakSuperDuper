@@ -10,12 +10,12 @@ const Signup = () => {
     useEffect(() => {
         window.scrollTo(0,0);
     }, [])
-    return (
+    return ( <>
         <div>
             <Navigation />
             <Animatedbg />
             <div className="containersign">
-                <h1>Sign Up</h1>
+                <h1>Sign Up <span>Campus Ambassador</span></h1>
                 
                 <div className="box">
                     <label for="fname">Enter Your Full Name</label>
@@ -83,11 +83,10 @@ const Signup = () => {
                 <button className="btnsign">Register</button>
             </div>
             <div className="mt"></div>
-            <div class="footpage">
-                <Footer/>
-            </div>
+            
         </div>
-       
+        <Footer/>
+       </>
     )
 }
 
