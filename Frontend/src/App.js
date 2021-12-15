@@ -15,6 +15,7 @@ import Reward from './pages/Reward/reward';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/SignupStud';
 import SignupMentor from './pages/Signup/SignupMentor';
+import SignupCa from './pages/Signup/SignupCA';
 import ScrollToTop from './components/ScrollToTop';
 import {
   BrowserRouter as Router,
@@ -44,6 +45,7 @@ function App() {
         <Route exact path="/register" component={Conduct}/>
         <Route path="/register/signup/student" component={Signup}/>
         <Route path="/register/signup/mentor" component={SignupMentor}/>
+        <Route path="/register/signup/ca" component={SignupCa}/>
         </Switch>
         {/* <Footer/> */}
       </BrowserRouter>

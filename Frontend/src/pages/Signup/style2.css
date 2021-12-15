@@ -227,3 +227,9 @@ label{
         top: 1850px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .containersign h1{
+        width:90%;
+    }
+}
