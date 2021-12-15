@@ -1,11 +1,11 @@
-# Codepeak-frontend
+# Codepeak-Frontend
 Hello Guys!! [Kartikay Gupta](https://github.com/KartuzGupta) and [Vishal Yadav](https://github.com/VishalIITP) are the mentors for this project.
-## Steps for running the Frontend
+## Steps for setting up the Frontend
 **Prerequisite: ReactJS should be setup on your system**<br>
 **If not then [ReactJS Setup Video](https://youtu.be/-mJFZp84TIY)**<br>
 >Clone the repository <br>
 ```
-git clone https://github.com/VishalIITP/CodepeakSuperDuper.git
+git clone [forked repo link]
 ```
 >Go inside the **Frontend** folder<br>
 ```
@@ -33,7 +33,7 @@ npm run start
 git status
 git add .
 git commit -m '[Changes you made]'
-git push origin [your branch]
+git push origin main
 ```
 
 ### Feel free to suggest improvements in other portions of the website.
