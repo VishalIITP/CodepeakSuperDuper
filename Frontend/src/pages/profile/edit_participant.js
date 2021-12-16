@@ -11,27 +11,22 @@ export default function edit_participant() {
             <Navigation />
             <Animatedbg />
             <div className="profile_personal">
-        <div className="pro_btn">
-        <Link to="/login/profile/profile_participant">
+            <div className="pro_btn">
+            <Link to="/login/profile/profile_participant">
               <button >Personal Details</button>
             </Link>
             <Link to="/login/profile/edit_participant">
               <button className="active_pro">Edit profile</button>
             </Link>
 
-        </div>
+            </div>
+            
         <div className="pro_details edit_details">
             <h2>Edit Details</h2>
             <hr className="conf_hr"/>
-
-            
-            
-            
             
             <form method="post" action="">
 
-            
-            
                 <div className="profile_details">
                     <p><label for="inputPassword3" className="col-form-label">Name</label></p>
                     <div className="edit_fill">

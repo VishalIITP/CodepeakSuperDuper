@@ -95,7 +95,7 @@ svg{
   z-index: 1;
   position: relative;
   width: 70%;
-  background-color: #0b3045;
+  background-color: rgba(11,48,69,.8);
   border-radius: 30px;
   padding: 50px;
   padding-top: 30px;
