@@ -25,6 +25,14 @@ The project is for full-stack web development from beginner to advanced <br>
 > - If the work is not up to the mark, then we will suggest some changes and guide you. <br>
 > - For more info. go through the [Student Guide](https://bit.ly/3c9UkPA) <br>
 
+## Setup the project
+>Fork the repository <br>
+```
+git clone [forked repo link]
+```
+>Then Push the changes <br>
+>Then Create a PR <br>
+
 ## How to push changes ??
 >Setup the repository in your local machine and make the necessary changes. <br>
 >Open Terminal and write the following commands : <br>
@@ -32,7 +40,7 @@ The project is for full-stack web development from beginner to advanced <br>
 git status
 git add .
 git commit -m '[Changes you made]'
-git push origin [your branch]
+git push origin main
 ```
 
 ## Connect with us on:
