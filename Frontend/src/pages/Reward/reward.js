@@ -53,7 +53,7 @@ export default function Reward() {
                             title='Voiceflow' 
                             abt1='- Six months Voiceflow Subscription worth $240 to all participants.'/>
             </div>
-            <div className="rewardBox left" data-aos="fade-up" data-aos-once = "true">
+            <div className="rewardBox right" data-aos="fade-up" data-aos-once = "true">
                 <div className="rewImg">
                 <img src={NWocLogo} alt="" srcset="" className="rewardLogo" />
                 <img src={CodingClubLogo} alt="" srcset="" className="rewardLogo" />
