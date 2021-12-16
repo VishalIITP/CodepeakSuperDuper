@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import Animatedbg from '../../components/Animatedbg'
 import Navigation from '../../components/Navigation'
 import Footer from '../../components/footer'
+import { Link } from 'react-router-dom';
 import "./style.css"
 
 // Login component for CODEPEAK webisite made by aritroCoder
@@ -35,7 +36,7 @@ const Login = () => {
                         placeholder="Enter Your Password"
                     />
                 </div>
-                <button className="btnlog">Log In</button>
+                <Link to = "/login/profile/profile_participant"> <button className="btnlog">Log In</button></Link>
             </div>
             <div className="mt"></div>
             <div className="lowerpage">

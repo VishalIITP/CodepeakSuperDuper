@@ -17,6 +17,8 @@ import Signup from './pages/Signup/SignupStud';
 import SignupMentor from './pages/Signup/SignupMentor';
 import SignupCa from './pages/Signup/SignupCA';
 import ScrollToTop from './components/ScrollToTop';
+import ProfileParticipant from './pages/profile/profile_participant';
+import EditParticipant from './pages/profile/edit_participant';
 import {
   BrowserRouter as Router,
   Routes,
@@ -35,7 +37,7 @@ function App() {
           <Route path="/project" component={Project} />
           <Route path="/team" component={Team} />
           <Route path="/reward" component={Reward} />
-          <Route path="/login" component={Login} />
+          {/* <Route path="/login" component={Login} /> */}
           {/* <Route path="/signup/student" component={Signup} />
           <Route path="/signup/mentor" component={SignupMentor} /> */}
         </Switch>
@@ -47,7 +49,12 @@ function App() {
         <Route path="/register/signup/mentor" component={SignupMentor}/>
         <Route path="/register/signup/ca" component={SignupCa}/>
         </Switch>
-        {/* <Footer/> */}
+        
+        <Switch>
+          <Route exact path="/login" component={Login}/>
+          <Route path="/login/profile/profile_participant" component={ProfileParticipant}/>
+          <Route path="/login/profile/edit_participant" component={EditParticipant}/>
+        </Switch>
       </BrowserRouter>
       <ScrollButton/>
     </div>

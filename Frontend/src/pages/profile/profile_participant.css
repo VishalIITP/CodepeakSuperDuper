@@ -1,0 +1,156 @@
+.profile_personal{
+    display: flex;
+    flex-direction: row;
+}
+.pro_btn{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 150px; */
+    width: 200px;
+    margin-left: 20px;
+    height: fit-content;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgba(66, 66, 66, 0.185);
+    position: relative;
+    top: 100px;
+    background-color: #0b3045;
+    color: white;
+    margin-left: 30px;
+    opacity: 0.8;
+}
+.pro_btn a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+.pro_btn button{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    background: #0b3045;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.pro_btn .active_pro{
+    /* border-bottom: 2px solid var(--main-dark1-color); */
+    color: #abd5ea;
+}
+.pro_btn button:hover{
+    /* border-bottom: 2px solid var(--main-dark1-color); */
+    color: #abd5ea;
+}
+.pro_details{
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 100px; */
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    /* margin-top: 150px */
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid var(--main-dark1-color); */
+    background-color: #0b3045;
+    box-shadow: 0 10px 15px rgba(66, 66, 66, 0.185);
+    color: white;
+    position: relative;
+    top: 100px;
+    margin-bottom: 150px;
+    opacity: 0.8;
+}
+
+.profile_details{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    margin-top: 10px;
+    text-align: initial;
+    
+}
+.pro_details p{
+    font-size: 1.2rem;
+    color: var(--main-dark1-color);
+}
+.pro_details h2{
+    font-size: 25px;
+    text-align: initial;
+    color: #abd5ea;
+}
+
+.conf_hr{
+    background: white;
+    width: 300px;
+    height: 3px;
+    margin-left: 0px;
+}
+
+.edit_details{
+    width: 60%;
+ }
+
+ .profile_details strong{
+     color: #abd5ea;
+ }
+ @media only screen and (max-width:1600px) {
+    .edit_details{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .edit_details{
+        width: 55%;
+    }
+}
+@media only screen and (max-width:1200px) {
+    .edit_details{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .edit_details{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:1100px){
+    .edit-fill-form{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:750px){
+    .profile_personal{
+        flex-direction: column;
+    }
+    .pro_details{
+        width: 90%;
+        padding: 30px;
+        /* margin-top: 20px; */
+    }
+    
+    .pro_btn{
+        /* padding-top: 110px; */
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 110px; */
+        margin-bottom: 30px;
+    }
+    .conf_hr{
+        width: 60%;
+    }
+    .profile_details{
+        grid-template-columns: revert;
+        grid-template-rows: repeat(2, auto);
+    }
+   .edit_fill{
+       width: 250px;
+   }
+}
+@media only screen and (max-width:450px){
+    .conf_hr{
+        width: 80%;
+    }
+}
