@@ -87,7 +87,7 @@ button {
   padding: 8px;
   font-size: 14px;
   outline: none;
-  background-color: rgb(13,35,59);
+  background-color: rgb(13,35,59,.8);
   box-shadow: 0px 0px 11px #45889b;
 }
 #searchBar:focus {
@@ -107,7 +107,7 @@ button {
   box-shadow: 0px 0px 10px #45889b;
   transform: scale(0.99);
   transition: all 0.2s ease-in-out;
-  background-color: rgb(13,35,59);
+  background-color: rgb(13,35,59,.8);
 }
 .nwoc-repo-card:hover {
   box-shadow: 6px  6px 10px #45889b;
