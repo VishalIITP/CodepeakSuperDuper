@@ -8,9 +8,12 @@
     margin: auto;
 }
 
+.mobilescreen{
+    display: none;
+}
+
 .slider1 {
     margin-top: 65px;
-
 }
 
 .icon img{
@@ -36,6 +39,8 @@
     box-shadow: #172536 0.5px 0.5px 1px 1px;
 }
 .slider1 h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
     color: white;
     margin-bottom: 10px;
 }
@@ -133,30 +138,65 @@
 }
 @media only screen and (max-width:1100px) {
     .combined{
-        width: 90%;
+        width: 98%;
     }
 }
 
 @media only screen and (max-width:800px) {
-    .coord{
-        flex-direction: column;
+    .mobilescreen{
+        display: block;
+    }
+    .fullscreen{
+        display: none;
+    }
+    .slider h2{
+        padding-top: 60px;
+    }
+    .slider1{
+        margin-top: 35px;
+    }
+    .slider1 h2{
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+    }
+    .slider3{
+        margin-bottom: 40px;
+        margin-top: 35px;
+    }
+    .slider3 h2{
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
     }
     .icon {
-        width: 270px;
-        height: 300px;
+        margin: 2px 7px;
+        width: 170px;
+        height: 235px;
+        padding: 10px;
     }
     .icon img{
-        height: 170px;
-        width: 170px;
-        border-radius: 150px;
-        margin: auto;
+        height: 130px;
+        width: 130px;
+        border-radius: 65px;
+        margin-bottom: 15px;
+    }
+    .namecard{
+        margin-top: 10px;
     }
     .namecard p{
-        font-size: 1.3rem;
-        margin-top: 10px;
+        font-size: .9rem;
+        margin-top: 0px;
+    }
+    .iconbx svg{
+        height: 20px;
     }
     .slider hr{
         width: 20%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
     .slick-next {
         right: 2px;
