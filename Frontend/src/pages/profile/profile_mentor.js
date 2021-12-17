@@ -19,6 +19,10 @@ export default function profile_participant() {
           <Link to="/login/profile/edit_mentor">
             <button>Edit profile</button>
           </Link>
+
+          <Link to="/login/profile/dashboard_mentor">
+            <button>Dashboard</button>
+          </Link>
         </div>
         <div className="pro_details">
           <h2>Personal Details</h2>
