@@ -168,3 +168,19 @@ text-decoration: underline;
     width: 250px;
   }
 }
+.dashboard h1{
+  width: 70%;
+}
+@media only screen and (max-width: 1050px){
+  .dashboard h1{
+    width: 80%;
+  }
+ }
+@media only screen and (max-width: 800px){
+.dashboard{
+  top: 280px;
+}
+.dashboard h1{
+  width: 100%;
+}
+}
