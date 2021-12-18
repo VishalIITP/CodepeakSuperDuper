@@ -76,7 +76,7 @@ export default function edit_participant() {
                 </div>
                 <div className="profile_details">
                     <div>
-                        <button type="submit" className="btn btn-primary" name="update">Update</button>
+                        <button type="submit" className=" btnlog" name="update">Update</button>
                     </div>
                 </div>
 
