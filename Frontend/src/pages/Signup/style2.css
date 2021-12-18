@@ -179,10 +179,10 @@ background-attachment: fixed;
 }
 
 .btnsign:hover{
-    opacity: 0.5;
-    color: #000000;
+    /* opacity: 0.5; */
+    color: white;
     box-shadow: 0px 0px 50px #006eff;
-    background: rgb(0, 119, 255);
+    background: #2784b35c;
 }
 
 .mt{
