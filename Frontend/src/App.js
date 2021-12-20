@@ -21,7 +21,7 @@ import ProfileParticipant from "./pages/profile/profile_participant";
 import ProfileMentor from "./pages/profile/profile_mentor";
 import EditParticipant from "./pages/profile/edit_participant";
 import DashboardMentor from "./pages/profile/dashboard_mentor";
-import { BrowserRouter as Router, Routes, Link } from "react-router-dom";
+//import { BrowserRouter as Router, Routes } from "react-router-dom";
 //import TeamTemp from './pages/leaderboard_temp'
 function App() {
   return (
@@ -30,14 +30,10 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route path="/register" component={Conduct}/> */}
           <Route path="/leaderboard" component={Leaderboard} />
           <Route path="/project" component={Project} />
           <Route path="/team" component={Team} />
           <Route path="/reward" component={Reward} />
-          {/* <Route path="/login" component={Login} /> */}
-          {/* <Route path="/signup/student" component={Signup} />
-          <Route path="/signup/mentor" component={SignupMentor} /> */}
         </Switch>
 
         <Switch>
@@ -49,12 +45,8 @@ function App() {
 
         <Switch>
           <Route exact path="/login" component={Login} />
-          <Route
-            path="/login/profile/profile_participant"
-            component={ProfileParticipant}
-          />
-          <Route
-            path="/login/profile/profile_mentor"
+          <Route path="/login/profile/profile_participant" component={ProfileParticipant} />
+          <Route path="/login/profile/profile_mentor"
             component={ProfileMentor}
           />
           <Route

@@ -6,7 +6,6 @@ import Container from "react-bootstrap/Container";
 import Footer from "../../components/footer";
 import { usePagination, useTable } from "react-table";
 import { Dropdown } from "react-bootstrap";
-
 const Leaderboard = () => {
 
     const[fi, setFi] = useState([]);
