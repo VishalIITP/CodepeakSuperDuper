@@ -21,7 +21,9 @@ import ProfileParticipant from "./pages/profile/profile_participant";
 import ProfileMentor from "./pages/profile/profile_mentor";
 import EditParticipant from "./pages/profile/edit_participant";
 import DashboardMentor from "./pages/profile/dashboard_mentor";
-//import { BrowserRouter as Router, Routes } from "react-router-dom";
+import EditMentor from "./pages/profile/edit_mentor";
+
+import { BrowserRouter as Router, Routes, Link } from "react-router-dom";
 //import TeamTemp from './pages/leaderboard_temp'
 function App() {
   return (
@@ -53,7 +55,11 @@ function App() {
             path="/login/profile/edit_participant"
             component={EditParticipant}
           />
-          <Route path="/login/profile/dashboard_mentor" component={DashboardMentor}/>
+          <Route path="/login/profile/edit_mentor" component={EditMentor} />
+          <Route
+            path="/login/profile/dashboard_mentor"
+            component={DashboardMentor}
+          />
         </Switch>
       </BrowserRouter>
       <ScrollButton />
