@@ -23,6 +23,8 @@ import EditParticipant from "./pages/profile/edit_participant";
 import DashboardMentor from "./pages/profile/dashboard_mentor";
 import ProjectMentor from "./pages/profile/project_mentor";
 import ProjectDetails from "./pages/profile/project_details";
+import EditMentor from "./pages/profile/edit_mentor";
+
 import { BrowserRouter as Router, Routes, Link } from "react-router-dom";
 //import TeamTemp from './pages/leaderboard_temp'
 function App() {
@@ -71,7 +73,11 @@ function App() {
           />
           <Route
             path="/login/profile/project_details"
-            component={ProjectDetails}
+            component={ProjectDetails} />
+          <Route path="/login/profile/edit_mentor" component={EditMentor} />
+          <Route
+            path="/login/profile/dashboard_mentor"
+            component={DashboardMentor}
           />
         </Switch>
       </BrowserRouter>

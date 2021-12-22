@@ -53,14 +53,7 @@ export default function profile_participant() {
             <strong>
               <p>Projects</p>
             </strong>
-            <form action="#" method="post">
-      <div>
-        <label for="newitem">Add item</label>
-        <input type="text" name="newitem" id="newitem" 
-               placeholder="new item" />
-        <input type="submit" value="Add" />
-      </div>
-    </form>
+            
             <ul id="project">
               <li>
                 <a href="/">Sample project 1</a>
