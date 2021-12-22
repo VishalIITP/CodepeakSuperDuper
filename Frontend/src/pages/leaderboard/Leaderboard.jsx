@@ -6,10 +6,13 @@ import Container from "react-bootstrap/Container";
 import Footer from "../../components/footer";
 import { usePagination, useTable } from "react-table";
 import { Dropdown } from "react-bootstrap";
+import Loading from "../../components/leaderboard/Loading";
+
 const Leaderboard = () => {
 
     const[fi, setFi] = useState([]);
     const[se, setSe] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
 
@@ -46,6 +49,7 @@ const Leaderboard = () => {
 
         setFi(tempfi);
         setSe(tempfi);
+        setLoading(false);
       }catch(error){
 
         console.log(error);
@@ -214,6 +218,8 @@ const Leaderboard = () => {
       <div style={style} >
         <div className='space'></div>
         <div className='title mb-5 p-3'>LEADERBOARD</div>
+        {loading ? <Loading/>: (
+
         <Container>
           <input
               type="search"
@@ -377,6 +383,7 @@ const Leaderboard = () => {
             </div>
           </div>
         </Container>
+         )}
         <div className='space'></div>
         <Footer bg='#12263F' />
       </div>
