@@ -23,6 +23,10 @@ export default function profile_participant() {
           <Link to="/login/profile/dashboard_mentor">
             <button>Dashboard</button>
           </Link>
+
+          <Link to="/login/profile/project_details">
+            <button>Project details</button>
+          </Link>
         </div>
         <div className="pro_details">
           <h2>Personal Details</h2>
@@ -49,7 +53,15 @@ export default function profile_participant() {
             <strong>
               <p>Projects</p>
             </strong>
-            <ul>
+            <form action="#" method="post">
+      <div>
+        <label for="newitem">Add item</label>
+        <input type="text" name="newitem" id="newitem" 
+               placeholder="new item" />
+        <input type="submit" value="Add" />
+      </div>
+    </form>
+            <ul id="project">
               <li>
                 <a href="/">Sample project 1</a>
               </li>
@@ -61,6 +73,7 @@ export default function profile_participant() {
               </li>
             </ul>
           </div>
+          
           <div className="profile_details">
             <strong>
               <p>Phone Number</p>

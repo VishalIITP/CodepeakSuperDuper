@@ -21,6 +21,8 @@ import ProfileParticipant from "./pages/profile/profile_participant";
 import ProfileMentor from "./pages/profile/profile_mentor";
 import EditParticipant from "./pages/profile/edit_participant";
 import DashboardMentor from "./pages/profile/dashboard_mentor";
+import ProjectMentor from "./pages/profile/project_mentor";
+import ProjectDetails from "./pages/profile/project_details";
 import { BrowserRouter as Router, Routes, Link } from "react-router-dom";
 //import TeamTemp from './pages/leaderboard_temp'
 function App() {
@@ -62,6 +64,15 @@ function App() {
             component={EditParticipant}
           />
           <Route path="/login/profile/dashboard_mentor" component={DashboardMentor}/>
+
+          <Route
+            path="/login/profile/project_mentor"
+            component={ProjectMentor}
+          />
+          <Route
+            path="/login/profile/project_details"
+            component={ProjectDetails}
+          />
         </Switch>
       </BrowserRouter>
       <ScrollButton />
