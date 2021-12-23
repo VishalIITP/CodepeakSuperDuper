@@ -18,7 +18,8 @@ import SignupMentor from "./pages/Signup/SignupMentor";
 import SignupCa from "./pages/Signup/SignupCA";
 import ScrollToTop from "./components/ScrollToTop";
 import ProfileParticipant from "./pages/profile/profile_participant";
-import ProfileMentor from "./pages/profile/profile_mentor";
+// import ProfileMentor from "./pages/profile/profile_mentor";
+import ProfileMentor from "./pages/profile/profile_mentor_2";
 import EditParticipant from "./pages/profile/edit_participant";
 import DashboardMentor from "./pages/profile/dashboard_mentor";
 import ProjectMentor from "./pages/profile/project_mentor";
@@ -57,7 +58,7 @@ function App() {
             path="/login/profile/edit_participant"
             component={EditParticipant}
           />
-          <Route path="/login/profile/dashboard_mentor" component={DashboardMentor}/>
+          <Route path="/login/profile/dashboard_mentor" component={DashboardMentor} />
 
           <Route
             path="/login/profile/project_mentor"
