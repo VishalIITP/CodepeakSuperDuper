@@ -27,6 +27,10 @@ const Dashboard = () => {
           <Link to="/login/profile/dashboard_mentor">
             <button  className="active_pro">Dashboard</button>
           </Link>
+
+          <Link to="/login/profile/project_details">
+            <button>Project details</button>
+          </Link>
         </div>
       <div className="containerLogin dashboard">
         <h1>Dashboard</h1>

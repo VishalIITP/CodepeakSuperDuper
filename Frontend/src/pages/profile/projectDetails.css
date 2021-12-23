@@ -1,0 +1,26 @@
+table {
+    color: white;
+    background-color:#0b3045 ;
+    padding: 10px;
+}
+.projectTable{
+    background-color: none;
+    background: none;
+    padding: 0 20px;
+}
+
+tbody{
+    padding: 20px;
+}
+
+tbody, td, tfoot, th, thead, tr{
+    padding: 10px;
+}
+.btnproj{
+    width: 30%;
+}
+textarea{
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+}
