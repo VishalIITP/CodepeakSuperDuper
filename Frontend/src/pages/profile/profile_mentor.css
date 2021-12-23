@@ -178,7 +178,8 @@ text-decoration: underline;
  }
 @media only screen and (max-width: 800px){
 .dashboard{
-  top: 280px;
+  top: 320px;
+  
 }
 .dashboard h1{
   width: 100%;
