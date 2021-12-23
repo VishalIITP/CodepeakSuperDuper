@@ -23,7 +23,7 @@ import EditParticipant from "./pages/profile/edit_participant";
 import DashboardMentor from "./pages/profile/dashboard_mentor";
 import EditMentor from "./pages/profile/edit_mentor";
 
-import { BrowserRouter as Router, Routes, Link } from "react-router-dom";
+//import { BrowserRouter as Router, Routes, Link } from "react-router-dom";
 //import TeamTemp from './pages/leaderboard_temp'
 function App() {
   return (
