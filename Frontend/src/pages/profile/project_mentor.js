@@ -76,9 +76,6 @@ export default function edit_participant() {
                         <button type="submit" className=" btnlog" name="update">Add Project</button>
                     </div>
                 </div>
-
-                
-          
                 
             </form>
         </div>

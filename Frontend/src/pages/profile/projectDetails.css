@@ -24,3 +24,8 @@ textarea{
     padding: 5px;
     color: white;
 }
+@media only screen and (max-width:800px){
+    .projectTable{
+        width: 98%;
+    }
+}
