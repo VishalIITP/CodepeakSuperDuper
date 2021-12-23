@@ -91,12 +91,12 @@ const columns = React.useMemo(
           </Link>
 
           <Link to="/login/profile/project_details">
-            <button className="active_pro">Project details</button>
+            <button className="active_pro">Projects</button>
           </Link>
         </div>
         <div className="pro_details edit_details projectTable">
-            <h2>Project Details</h2>
-            <hr className="conf_hr"/>
+            {/* <h2>Project Details</h2>
+            <hr className="conf_hr"/> */}
 
             
             <table {...getTableProps()} className='tableProject'>

@@ -149,11 +149,6 @@
        width: 250px;
    }
 }
-@media only screen and (max-width:450px){
-    .conf_hr{
-        width: 80%;
-    }
-}
 .edit_details{
     width: 60%;
  }
@@ -219,4 +214,15 @@
     box-shadow: none;
     color: white;
     
+}
+@media only screen and (max-width:450px){
+    .conf_hr{
+        width: 80%;
+    }
+    .edit_fill{
+        width: 100%;
+    }
+    .pro_details{
+        width: 86%;
+    }
 }

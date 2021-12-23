@@ -26,7 +26,7 @@ export default function edit_participant() {
           </Link>
 
           <Link to="/login/profile/project_details">
-            <button className="active_pro">Project details</button>
+            <button className="active_pro">Projects</button>
           </Link>
         </div>
         <div className="pro_details edit_details">

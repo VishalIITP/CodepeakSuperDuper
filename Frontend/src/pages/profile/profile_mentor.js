@@ -25,7 +25,7 @@ export default function profile_participant() {
           </Link>
 
           <Link to="/login/profile/project_details">
-            <button>Project details</button>
+            <button>Projects</button>
           </Link>
         </div>
         <div className="pro_details">

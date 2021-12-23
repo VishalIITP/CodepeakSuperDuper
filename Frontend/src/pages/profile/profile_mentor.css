@@ -226,3 +226,19 @@ content: "e700";
 float: right;
 cursor: pointer;
 }
+
+@media only screen and (max-width:450px){
+  .conf_hr{
+      width: 80%;
+  }
+  .edit_fill{
+      width: 100%;
+  }
+  .pro_details{
+      width: 86%;
+  }
+  .pro_btn{
+    padding: 4px;
+    border-radius: 10px;
+  }
+}
