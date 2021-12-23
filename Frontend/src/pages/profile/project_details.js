@@ -52,8 +52,6 @@ const data = React.useMemo(() =>
 )
 const columns = React.useMemo(
     () => [
-    
-    
     {
     Header: 'Project Name',
     accessor: 'name',
@@ -62,16 +60,6 @@ const columns = React.useMemo(
     Header: 'Description',
     accessor: 'address',
     },
-    
-    
-    
-    
-    
-    {
-    Header: 'Github Id',
-    accessor: 'order',
-    },
-    
     
     ],
     []
@@ -111,7 +99,7 @@ const columns = React.useMemo(
             <hr className="conf_hr"/>
 
             
-            <table {...getTableProps()}>
+            <table {...getTableProps()} className='tableProject'>
    <thead>
      {headerGroups.map(headerGroup => (
        <tr {...headerGroup.getHeaderGroupProps()}>

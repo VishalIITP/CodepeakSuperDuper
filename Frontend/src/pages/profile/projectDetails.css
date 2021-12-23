@@ -1,4 +1,4 @@
-table {
+.tableProject {
     color: white;
     background-color:#0b3045 ;
     padding: 10px;
@@ -17,7 +17,7 @@ tbody, td, tfoot, th, thead, tr{
     padding: 10px;
 }
 .btnproj{
-    width: 30%;
+    width: 160px;
 }
 textarea{
     background-color: transparent;
