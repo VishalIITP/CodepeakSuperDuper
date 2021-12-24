@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
-
 :root {
   /* --linear-gradient-mentor: linear-gradient(to right, #104468, #2f89c5); */
   --linear-gradient-mentor: linear-gradient(315deg, #104468 0%, #2f89c5 74%);
@@ -8,7 +6,7 @@
 .profile-mentor {
   display: flex;
   padding: 0 40px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: inherit;
   gap: 30px;
 }
 
@@ -153,6 +151,13 @@
   font-size: 15px;
   margin-bottom: 10px;
   text-align: left;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.projects-data-sub svg {
+  margin-right: 7px;
+  font-size: 14px;
 }
 
 .social-links {

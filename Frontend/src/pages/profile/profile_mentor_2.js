@@ -4,7 +4,7 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/footer";
 import { Link } from 'react-router-dom';
 import classes from './profile_mentor_2.module.css';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaShare } from 'react-icons/fa';
 import { AiFillLinkedin, AiFillMail } from 'react-icons/ai'
 
 const profile_mentor_2 = () => {
@@ -51,10 +51,10 @@ const profile_mentor_2 = () => {
                             <h3>Projects</h3>
                             <div className={classes["projects-data"]}>
                                 <div className={classes["projects-data-sub"]}>
-                                    <p>Assesment App</p>
+                                    <p><FaShare />Assesment App</p>
                                 </div>
                                 <div className={classes["projects-data-sub"]}>
-                                    <p>Interview Tracker</p>
+                                    <p><FaShare />Interview Tracker</p>
                                 </div>
                             </div>
                         </div>
