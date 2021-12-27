@@ -2,6 +2,11 @@ body {
   font-family: "Gilroy-Medium";
 }
 
+.g-handle {
+  text-decoration: none;
+  color: black;
+}
+
 .space {
   padding-top: 20vh;
 }
