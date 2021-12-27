@@ -23,6 +23,9 @@ const profile_mentor_2 = () => {
                     <Link to="/login/profile/dashboard_mentor">
                         <button>Dashboard</button>
                     </Link>
+                    <Link to="/login/profile/project_details">
+                        <button>Projects</button>
+                    </Link>
                 </div>
                 <div className={classes["profile-wrapper"]}>
                     <div className={classes["left"]}>

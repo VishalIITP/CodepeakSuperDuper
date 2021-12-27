@@ -48,7 +48,7 @@
 }
 
 .profile-active {
-  color: #abd5ea;
+  color: #abd5ea !important;
 }
 
 .profile-btn button:hover {
