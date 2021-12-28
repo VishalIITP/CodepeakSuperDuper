@@ -1,0 +1,118 @@
+.tablee {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.border-top {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px 5px 0 0;
+}
+
+.table-head {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  font-size: 1.2em;
+}
+
+.table-head tr {
+  padding: 4px 5px;
+  background: #fff;
+  display: flex;
+  color: #364568;
+}
+
+.table-head-tr th {
+  flex: 1;
+}
+
+.table-body {
+  background: #f6faff !important;
+}
+
+.table-body-tr {
+  background: #fff;
+  margin: 7px 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 4px 5px;
+  display: flex;
+  transition: 0.2s ease;
+}
+
+.table-body-tr:hover {
+  background: #f9fcff;
+}
+
+.table-body-tr td {
+  color: #3c6d9e;
+  box-shadow: none;
+  flex: 1;
+}
+
+.table-body-tr td:nth-child(3n + 2) {
+  min-width: 200px;
+}
+
+.table-body-tr td:nth-child(3n + 3) {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-col {
+  width: 27px;
+}
+
+.prize-col {
+  position: relative;
+  width: 27px;
+}
+
+.hexagon {
+  position: absolute;
+}
+
+.hexagon svg {
+  font-size: 27px;
+}
+
+.medal svg {
+  color: #fff;
+  font-size: 14px;
+}
+
+.background-different {
+  background: #f1f8ff;
+  text-align: center;
+  border-radius: 3px 3px 2px 2px;
+  box-shadow: 0 0 3px #9ac5ff;
+}
+
+.table-body-tr:first-child td {
+  color: #3f6ba6;
+}
+
+.hexagon-1 svg {
+  color: #f5d22a;
+}
+
+.hexagon-2 svg {
+  color: #c5bab9;
+}
+
+.hexagon-3 svg {
+  color: #8b5433;
+}
+
+.g-handle {
+  color: #4b79a6;
+}
+
+.g-handle:hover {
+  color: #59b5c3;
+}
