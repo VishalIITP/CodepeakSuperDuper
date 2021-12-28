@@ -277,7 +277,7 @@ const Leaderboard = () => {
                         else
                           return (
                             <td {...cell.getCellProps()}>
-                              {cell["value"]}
+                              <a title="Github profile" class="g-handle" target="_blank" href={"https://github.com/" + cell["value"]}>{cell["value"]}</a>
                             </td>
                           );
                       })}
