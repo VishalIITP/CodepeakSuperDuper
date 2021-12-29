@@ -252,7 +252,7 @@ const Leaderboard_test = () => {
             <div class='leader-twinkling'></div>
             <div style={style} >
                 <div className='space'></div>
-                <div className='title mb-5 p-3'>LEADERBOARD</div>
+                <div className='title mb-2 p-3'>LEADERBOARD</div>
                 {loading ? <Loading /> : (
 
                     <Container>

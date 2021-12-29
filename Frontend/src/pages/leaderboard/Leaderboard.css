@@ -8,7 +8,7 @@ body {
 }
 
 .space {
-  padding-top: 20vh;
+  padding-top: 15vh;
 }
 .bg-custom {
   background-color: #12263f;
@@ -180,4 +180,14 @@ td {
   color: #2e63a5;
   /* border-color: #12263f85; */
   border: none;
+}
+
+@media only screen and (max-width:500px) {
+  .pagination-left{
+    flex-direction: column;
+  }
+  .pagination-right{
+    flex-direction: column;
+    margin-top: 10px;
+  }
 }
