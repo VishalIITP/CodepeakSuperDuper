@@ -2,21 +2,41 @@
     display: flex;
     flex-direction: row;
 }
+.profileImg{
+    border-radius: 50%;
+    display: inline;
+    margin-right: 20px;
+}
+@media screen and (min-width: 1055px) {
+    .profileImg{
+    width: 100px;
+    height: 100px;
+    }
+}
+@media screen and (max-width: 1055px) and (min-width: 700px) {
+    .profileImg{
+    width: 60px;
+    height: 60px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .profileImg{
+        display: block;
+    width: 40px;
+    height: 40px;
+    }
+}
 .pro_btn{
     display: flex;
     flex-direction: column;
     /* margin-top: 150px; */
     width: 200px;
-    margin-left: 20px;
-    height: fit-content;
-    border-radius: 30px;
+    height: 100vh;
     box-shadow: 0 10px 15px rgba(66, 66, 66, 0.185);
     position: relative;
     top: 100px;
-    background-color: #0b3045;
+    background-color: #041f2f;
     color: white;
-    margin-left: 30px;
-    opacity: 0.8;
 }
 .pro_btn a{
     text-decoration: none;

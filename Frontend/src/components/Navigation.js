@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import style_nav from './Navigation.css'
 import { NavLink } from 'react-router-dom';
 import { NavbarBrand } from 'react-bootstrap';
+import profilePic from "../pages/profile/pic.png";
 export default function Navigation(props) {
     return (
         <div style={style_nav}>
@@ -22,6 +23,7 @@ export default function Navigation(props) {
                     <NavLink to="/reward" activeStyle={{color: 'rgb(103 212 223)', borderBottom:'2px solid #589ba2', fontWeight: 500}} >Rewards</NavLink>
                     <NavLink to="/team" activeStyle={{color: 'rgb(103 212 223)', borderBottom:'2px solid #589ba2', fontWeight: 500}}>Team</NavLink>
                     <NavLink to="/login" activeStyle={{color: 'rgb(103 212 223)', borderBottom:'2px solid #589ba2', fontWeight: 500}}>Login</NavLink>
+                    <img src={profilePic} height="40px" width="40px" style={{ borderRadius: "50%", display: "inline", marginLeft: "20px", margin: "9px auto" }}></img>
                     {/* <NavLink to="/" >Contact</NavLink> */}
                 </Nav>
                 </Navbar.Collapse>

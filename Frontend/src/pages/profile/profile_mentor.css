@@ -7,16 +7,17 @@
   flex-direction: column;
   /* margin-top: 150px; */
   width: 200px;
-  margin-left: 20px;
-  height: fit-content;
-  border-radius: 30px;
+  height: 105vh;
   box-shadow: 0 10px 15px rgba(66, 66, 66, 0.185);
   position: relative;
   top: 100px;
-  background-color: #0b3045;
+  background-color: #041f2f;
   color: white;
-  margin-left: 30px;
-  opacity: 0.8;
+  left: 0;
+  top: 54px;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
 }
 .pro_btn a {
   text-decoration: none;
@@ -29,7 +30,7 @@
   text-align: left;
   padding: 10px;
   background-color: transparent;
-  background: #0b3045;
+  background: #041f2f;
   text-align: center;
   color: white;
   border-radius: 10px;
@@ -46,7 +47,7 @@
   display: flex;
   flex-direction: column;
   /* padding-top: 100px; */
-  width: fit-content;
+  width: 50%;
   height: fit-content;
   border-radius: 10px;
   /* margin-top: 150px */
@@ -61,13 +62,32 @@
   top: 100px;
   margin-bottom: 150px;
   opacity: 0.8;
+  margin-left: 30%;
 }
 
 .profile_details {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, 340px);
   margin-top: 10px;
   text-align: initial;
+}
+@media screen and (max-width:1300px) and (min-width: 1121px) {
+  .profile_details{
+  grid-template-columns: repeat(2, 300px);
+  }
+  
+}
+@media screen and (max-width:1121px) and (min-width: 981px) {
+  .profile_details{
+  grid-template-columns: repeat(2, 230px);
+  }
+  
+}
+@media screen and (max-width:980px) and (min-width: 100px) {
+  .profile_details{
+  grid-template-columns: repeat(2, 170px);
+  }
+  
 }
 .profile_details ul {
   list-style-type: none;
@@ -93,7 +113,7 @@ text-decoration: underline;
 
 .conf_hr {
   background: white;
-  width: 300px;
+  width: 100%;
   height: 3px;
   margin-left: 0px;
 }
@@ -104,6 +124,14 @@ text-decoration: underline;
 
 .profile_details strong {
   color: #abd5ea;
+}
+.dashboard{
+  top: 30%;
+}
+@media screen and (min-width: 1200px) {
+  .pro_details{
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 1600px) {
   .edit_details {
@@ -123,27 +151,34 @@ text-decoration: underline;
 }
 @media only screen and (max-width: 1100px) {
   .edit_details {
-    width: 70%;
+    width: 60%;
   }
-}
-@media only screen and (max-width: 1100px) {
+
   .edit-fill-form {
     width: 100%;
   }
+}
+@media screen and (max-width: 900px) {
+  .pro_details{
+    width: 58%;
+    padding-left:60px
+  }
+  
 }
 @media only screen and (max-width: 800px) {
   .profile_personal {
     flex-direction: column;
   }
   .pro_details {
-    width: 90%;
+    width: 55%;
     padding: 30px;
+    margin-left: 250px;
     /* margin-top: 20px; */
   }
 
   .pro_btn {
     /* padding-top: 110px; */
-    width: 230px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     /* margin-top: 110px; */
@@ -160,14 +195,30 @@ text-decoration: underline;
     width: 250px;
   }
 }
-@media only screen and (max-width: 450px) {
-  .conf_hr {
-    width: 80%;
+@media screen and (max-width: 700px) {
+  .pro_details {
+    width: 50%;
+    padding: 30px;
+    margin-left: 40%;
+    /* margin-top: 20px; */
   }
-  .edit_fill {
-    width: 250px;
+
+  .pro_btn {
+    /* padding-top: 110px; */
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 110px; */
+    margin-bottom: 30px;
   }
 }
+@media screen and (max-width:590px){
+  .dashboard{
+    width: 50%;
+    left: 40%;
+  }
+}
+
 .dashboard h1{
   width: 70%;
 }
@@ -175,15 +226,54 @@ text-decoration: underline;
   .dashboard h1{
     width: 80%;
   }
+  .dashboard{
+    left: 35%;
+  }
  }
 @media only screen and (max-width: 800px){
-.dashboard{
-  top: 320px;
-  
-}
 .dashboard h1{
   width: 100%;
 }
+}
+@media screen and (max-width:700px){
+  .dashboard
+  {
+    left: 31%;
+  }
+  
+}
+@media screen and (max-width:590px){
+  .dashboard{
+    width: 50%;
+    left: 40%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .conf_hr {
+    width: 80%;
+  }
+  .edit_fill {
+    width: 250px;
+  }
+  .pro_btn{
+    flex-direction:row;
+    width: 140px;
+    height: fit-content;
+    width: 100vw;
+    z-index: 4;
+  }
+  .pro_btn button{
+    font-size:15px;
+  }
+  .pro_details{
+    margin-left: auto;
+    margin-top: 15%;
+    width: 86%;
+  }
+  .dashboard{
+    width: 80%;
+    left: 10%;
+  }
 }
 
 #container {
@@ -234,11 +324,7 @@ cursor: pointer;
   .edit_fill{
       width: 100%;
   }
-  .pro_details{
-      width: 86%;
-  }
-  .pro_btn{
-    padding: 4px;
-    border-radius: 10px;
-  }
+}
+input{
+  width: auto !important;
 }
