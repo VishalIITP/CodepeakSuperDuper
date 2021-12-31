@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose=require('mongoose');
-const passport = require('passport');
 const MongoStore = require('connect-mongo');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
@@ -10,7 +9,6 @@ dotenv.config({ path: './config.env' });
 
 var app=express();
 const PORT = process.env.PORT||3100;
-require('./passport')(passport);
 
 mongoose.connect(process.env.MONGO_URI,{
     useNewUrlParser:true,
@@ -36,7 +34,5 @@ app.use(session({
     resave : true,
     saveUninitialized : true
 }));
-app.use(passport.initialize());
-app.use(passport.session());
 app.use('/register',require('./register_route'));
 app.listen(PORT,console.log(`listening at ${PORT}`));
