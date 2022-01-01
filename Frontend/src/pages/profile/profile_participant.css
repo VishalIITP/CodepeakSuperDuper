@@ -5,25 +5,36 @@
 .profileImg{
     border-radius: 50%;
     display: inline;
-    margin-right: 20px;
+    margin: auto;
 }
 @media screen and (min-width: 1055px) {
     .profileImg{
     width: 100px;
     height: 100px;
+    margin-right: 20px;
     }
 }
 @media screen and (max-width: 1055px) and (min-width: 700px) {
     .profileImg{
     width: 60px;
     height: 60px;
+    margin-right: 20px;
     }
 }
 @media screen and (max-width: 700px) {
     .profileImg{
         display: block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .profileImg{
+        display: block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
     }
 }
 .pro_btn{
@@ -245,4 +256,7 @@
     .pro_details{
         width: 86%;
     }
+}
+#inputPassword3{
+    width: auto !important;
 }

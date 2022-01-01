@@ -53,3 +53,11 @@
 .navbar-light .navbar-toggler-icon {
     background-image: url('../pages/Images/white_nav.png');
 }
+#username{
+    display:none;
+}
+@media screen and (max-width: 991px) {
+    #username{
+        display:inline;
+    }
+}
