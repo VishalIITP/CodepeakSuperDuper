@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const session = require('express-session');
 const passport = require('passport');
 
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: './config/config.env' });
 
 var app = express();
 const PORT = process.env.PORT || 3100;

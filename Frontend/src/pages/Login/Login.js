@@ -17,6 +17,7 @@ const Login = () => {
       <Animatedbg />
 
       <div className="containerLogin">
+        <form method="post" action="http://localhost:3100/login">
         <h1>Log In</h1>
         <div className="box">
           <i className="fas fa-envelope"></i>
@@ -36,14 +37,8 @@ const Login = () => {
             placeholder="Enter Your Password"
           />
         </div>
-        <Link to="/login/profile/profile_participant">
-          {" "}
-          <button className="btnlog">Log In student</button>
-        </Link>
-        <Link to="/login/profile/profile_mentor">
-          {" "}
-          <button className="btnlog">Log In mentor</button>
-        </Link>
+          <button type="submit" className="btnlog">Log In</button>
+        </form>
       </div>
       <div className="mt"></div>
       <div className="lowerpage">
