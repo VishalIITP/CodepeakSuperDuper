@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const User = require("./models/user");
+const User = require("../models/user");
 const bcrypt = require('bcryptjs');
 
 router.post('/signup/mentor', (req, res) => {
@@ -37,6 +37,9 @@ router.post('/signup/mentor', (req, res) => {
                 }
                 if (req.body.refferal_code) {
                     User.refferal_code = req.body.refferal_code;
+                }
+                if (req.body.other_profile_url) {
+                    User.other_profile_url = req.body.other_profile_url;
                 }
                 bcrypt.genSalt(10, (err, salt) => {
                     bcrypt.hash(newUser.password, salt, (err, hash) => {
@@ -85,6 +88,9 @@ router.post('/signup/student', (req, res) => {
                 if (req.body.college_id) {
                     User.college_id = req.body.college_id
                 }
+                if (req.body.other_profile_url) {
+                    User.other_profile_url = req.body.other_profile_url
+                }
                 if (req.body.gitlab_url) {
                     User.gitlab_url = req.body.gitlab_url
                 }
@@ -129,11 +135,10 @@ router.post('/signup/ca', (req, res) => {
                     post: "ca",
                     email: email,
                     password: password,
-                    name: firstName + " " + secondName,
+                    name: name,
                     phone: phone,
                     college_name: college_name,
-                    github_url: github_url,
-                    projects_url: projects_url
+                    college_id: college_id,
                 })
                 bcrypt.genSalt(10, (err, salt) => {
                     bcrypt.hash(newUser.password, salt, (err, hash) => {

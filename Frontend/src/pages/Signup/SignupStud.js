@@ -18,49 +18,57 @@ const Signup = () => {
           <h1>
             Sign Up <span>Participant</span>
           </h1>
-          <form method="post" action="">
+          <form method="post" action="http://localhost:3100/register/signup/student">
             <div className="box">
               <label for="email">Enter Your email</label>
               <input type="email" name="email" id="email" />
             </div>
             <div className="box">
-              <label for="fname">Enter Your First Name</label>
-              <input type="text" name="fname" id="fname" />
+              <label for="password">Enter Password</label>
+              <input type="password" name="password" id="password" />
             </div>
             <div className="box">
-              <label for="lname">Enter Your Last Name</label>
-              <input type="text" name="lname" id="lname" />
+              <label for="password2">Confirm Password</label>
+              <input type="password" name="password2" id="password2" />
+            </div>
+            <div className="box">
+              <label for="firstName">Enter Your First Name</label>
+              <input type="text" name="firstName" id="firstName" />
+            </div>
+            <div className="box">
+              <label for="secondName">Enter Your Last Name</label>
+              <input type="text" name="secondName" id="secondName" />
             </div>
             <div className="box">
               <label for="phone">Enter Your Phone/Whatsapp Number</label>
               <input type="tel" name="phone" id="phone" />
             </div>
             <div className="box">
-              <label for="webemail">Enter Your Institute email</label>
-              <input type="email" name="webemail" id="webemail" />
+              <label for="college_id">Enter Your Institute email</label>
+              <input type="email" name="college_id" id="college_id" />
             </div>
             <div className="box">
-              <label for="institute">
+              <label for="college_name">
                 Enter Your Institute/ University name
               </label>
-              <input type="text" name="institute" id="institute" />
+              <input type="text" name="college_name" id="college_name" />
             </div>
             <div className="box">
-              <label for="github">
+              <label for="github_url">
                 Enter Your GitHub profile URL (eg: https://github.com/madris112)
               </label>
-              <input type="url" name="github" id="github" />
+              <input type="url" name="github_url" id="github_url" />
             </div>
             <div className="box">
-              <label for="gitlab">Enter Your GitLab profile URL</label>
-              <input type="url" name="gitlab" id="gitlab" />
+              <label for="gitlab_url">Enter Your GitLab profile URL</label>
+              <input type="url" name="gitlab_url" id="gitlab_url" />
             </div>
             <div className="box">
-              <label for="pUrl">
+              <label for="other_profile_url">
                 Enter Your other profile URL (Bitbucket/LinkedIn/personal
                 website)
               </label>
-              <input type="url" name="pUrl" id="pUrl" />
+              <input type="url" name="other_profile_url" id="other_profile_url" />
             </div>
             <div className="box2">
               <label for="fresher" className="chklabel">
@@ -76,8 +84,8 @@ const Signup = () => {
             </div>
 
             <div className="box">
-              <label for="refcode">Refferal Code (if any)</label>
-              <input type="text" name="refcode" id="refcode" />
+              <label for="refferal_code">Refferal Code (if any)</label>
+              <input type="text" name="refferal_code" id="refferal_code" />
             </div>
             <div className="box2">
               <p>

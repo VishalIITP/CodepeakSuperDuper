@@ -47,7 +47,7 @@ const emailAuthRouter = require('./routes/login_route');
 const googleAuthRouter = require('./routes/google_login_route');
 const githubAuthRouter = require('./routes/github_login_route');
 
-app.use('/register', require('./register_route'));
+app.use('/register', require('./routes/register_route'));
 app.use('/login', emailAuthRouter);
 app.use('/auth', googleAuthRouter);
 app.use('/auth', githubAuthRouter);

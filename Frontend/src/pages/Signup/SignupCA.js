@@ -19,10 +19,10 @@ const Signup = () => {
             <h1>
               Sign Up <span>Campus Ambassador</span>
             </h1>
-            <form method="post" action="">
+            <form method="post" action="http://localhost:3100/register/signup/ca">
               <div className="box">
-                <label for="fname">Enter Your Full Name</label>
-                <input type="text" name="fname" id="fname" />
+                <label for="name">Enter Your Full Name</label>
+                <input type="text" name="name" id="name" />
               </div>
 
               <div className="box">
@@ -31,12 +31,22 @@ const Signup = () => {
               </div>
 
               <div className="box">
-                <label for="institute">Enter Your College Name</label>
-                <input type="text" name="institute" id="institute" />
+                <label for="password">Enter Password</label>
+                <input type="password" name="password" id="password" />
+              </div>
+
+              <div className="box">
+                <label for="password2">Confirm Password</label>
+                <input type="password" name="password2" id="password2" />
+              </div>
+
+              <div className="box">
+                <label for="college_name">Enter Your College Name</label>
+                <input type="text" name="college_name" id="college_name" />
               </div>
               <div className="box">
-                <label for="institute">Enter Your College Id</label>
-                <input type="text" name="institute" id="institute" />
+                <label for="college_id">Enter Your College Id</label>
+                <input type="text" name="college_id" id="college_id" />
               </div>
               <div className="box">
                 <label for="phone">Enter Your Phone/Whatsapp Number</label>
