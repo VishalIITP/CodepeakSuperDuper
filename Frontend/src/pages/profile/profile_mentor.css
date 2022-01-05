@@ -67,28 +67,28 @@
 
 .profile_details {
   display: grid;
-  grid-template-columns: repeat(2, 340px);
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 10px;
   text-align: initial;
 }
-@media screen and (max-width:1300px) and (min-width: 1121px) {
+/* @media screen and (max-width:1300px) and (min-width: 1121px) {
   .profile_details{
   grid-template-columns: repeat(2, 300px);
   }
   
-}
-@media screen and (max-width:1121px) and (min-width: 981px) {
+} */
+/* @media screen and (max-width:1121px) and (min-width: 981px) {
   .profile_details{
   grid-template-columns: repeat(2, 230px);
   }
   
-}
-@media screen and (max-width:980px) and (min-width: 100px) {
+} */
+/* @media screen and (max-width:980px) and (min-width: 100px) {
   .profile_details{
   grid-template-columns: repeat(2, 170px);
   }
   
-}
+} */
 .profile_details ul {
   list-style-type: none;
   padding-left: 0;
@@ -158,17 +158,23 @@ text-decoration: underline;
     width: 100%;
   }
 }
-@media screen and (max-width: 975px) {
+/* @media screen and (max-width: 975px) {
   .pro_details{
     width: auto;
   }
-}
+} */
 @media screen and (max-width: 900px) {
   .pro_details{
     width: 58%;
     padding-left:60px
   }
   
+}
+@media screen and (max-width: 1010px) {
+  .profile_details {
+    grid-template-columns: revert;
+    grid-template-rows: repeat(2, auto);
+  }
 }
 @media only screen and (max-width: 800px) {
   .profile_personal {
@@ -192,10 +198,7 @@ text-decoration: underline;
   .conf_hr {
     width: 60%;
   }
-  .profile_details {
-    grid-template-columns: revert;
-    grid-template-rows: repeat(2, auto);
-  }
+  
   .edit_fill {
     width: 250px;
   }
