@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const session = require('express-session');
 const passport = require('passport');
 
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: './config/config.env' });
 
 var app = express();
 const PORT = process.env.PORT || 3100;
@@ -43,6 +43,6 @@ app.use(passport.session());
 const passportInit = require('./config/passport');
 passportInit(passport);
 
-app.use('/register', require('./register_route'));
+app.use('/register', require('./routes/register_route'));
 app.use('/login', require('./routes/login_route'))
 app.listen(PORT, console.log(`listening at ${PORT}`));
