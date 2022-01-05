@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const passport = require('passport');
 
-const CLIENT_URL = "http://localhost:3100/";
+const CLIENT_URL = "http://localhost:3000/";
 
 router.get("/github", passport.authenticate("github", { scope: ["profile"] }));
 
