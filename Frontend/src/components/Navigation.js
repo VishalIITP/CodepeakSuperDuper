@@ -10,8 +10,7 @@ import profilePic from "../pages/profile/pic.png";
 
 document.addEventListener('click',(e)=>{
     if (!document.getElementById('navbar').contains(e.target)){
-        document.getElementsByClassName("navbar-toggler")[0].classList.add("collapsed");
-        document.getElementsByClassName("navbar-collapse")[0].classList.remove("show");
+        document.getElementsByClassName("navbar-toggler")[0].click();
     }
 },false)
 export default function Navigation(props) {
