@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const User = require("../models/user");
-const bcrypt = require('bcrypt');
+const User = require("./models/user");
+const bcrypt = require('bcryptjs');
 
 router.post('/signup/mentor', (req, res) => {
     const {email, password, password2, firstName, secondName, phone, college_name, github_url, projects_url} = req.body;
