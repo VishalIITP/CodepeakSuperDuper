@@ -4,6 +4,7 @@ import Navigation from '../../components/Navigation'
 import Footer from '../../components/footer'
 import "./profile_participant.css"
 import { Link } from 'react-router-dom';
+import profilePic from "./pic.png";
 
 export default function profile_participant() {
     return (
@@ -21,13 +22,12 @@ export default function profile_participant() {
             </Link>
           </div>
           <div className="pro_details">
-            <h2>Personal Details</h2>
+          <span style={{textAlign: "left"}}>
+            <img src={profilePic} className="profileImg"></img>
+            <h2 style={{ display: "inline" }}>Welcome, Jhon Smith</h2>
+          </span>
             <hr className="conf_hr" />
             <div className="profile_details">
-              <strong>
-                <p>Name</p>
-              </strong>
-              <p>Sample name</p>
             </div>
             <div className="profile_details">
               <strong>
