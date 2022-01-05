@@ -1,0 +1,6 @@
+POST http://localhost:3100/login/signin/student
+Content-Type: application/json
+
+{
+    "email": "shm@iitg.ac.in","password": "shmiitg"
+}
