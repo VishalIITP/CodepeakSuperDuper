@@ -17,7 +17,7 @@ const Login = () => {
       <Animatedbg />
 
       <div className="containerLogin">
-        <form method="post" action="http://localhost:3100/register/login">
+        <form method="post" action="http://localhost:3100/login">
         <h1>Log In</h1>
         <div className="box">
           <i className="fas fa-envelope"></i>
