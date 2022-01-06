@@ -47,11 +47,13 @@ const emailAuthRouter = require('./routes/login_route');
 const googleAuthRouter = require('./routes/google_login_route');
 const githubAuthRouter = require('./routes/github_login_route');
 const editRouter = require('./routes/edit_route');
+const userRouter = require('./routes/user_route');
 
 app.use('/register', require('./routes/register_route'));
 app.use('/login', emailAuthRouter);
 app.use('/auth', googleAuthRouter);
 app.use('/auth', githubAuthRouter);
 app.use('/edit', editRouter);
+app.use('/user', userRouter);
 
 app.listen(PORT, console.log(`listening at ${PORT}`));
