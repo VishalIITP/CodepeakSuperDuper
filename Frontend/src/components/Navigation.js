@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
@@ -7,10 +7,16 @@ import style_nav from './Navigation.css'
 import { NavLink } from 'react-router-dom';
 import { NavbarBrand } from 'react-bootstrap';
 import profilePic from "../pages/profile/pic.png";
+
+document.addEventListener('click',(e)=>{
+    if (!document.getElementById('navbar').contains(e.target)){
+        document.getElementsByClassName("navbar-toggler")[0].click();
+    }
+},false)
 export default function Navigation(props) {
     return (
         <div style={style_nav}>
-            <Navbar bg="light" expand="lg" className={props.hasShadow? 'shadow' : ''}>
+            <Navbar id="navbar" bg="light" expand="lg" className={props.hasShadow? 'shadow' : ''}>
             <Container>
                 <NavbarBrand><NavLink className="brand" exact={true} to="/">CODEPEAK</NavLink></NavbarBrand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
