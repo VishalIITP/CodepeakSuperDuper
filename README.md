@@ -10,7 +10,7 @@ We shall also aim to improve the frontend of the website. <br>
  
 ## Tech Stack: 
 >- Frontend: UI/UX, HTML, CSS, JS, ReactJs <br>
->- Backend: Django, SQL <br>
+>- Backend: NOde Js, Mongo Db <br>
 The project is for full-stack web development from beginner to advanced <br>
 
 - Any question about the project is welcome here. You can check out the issues once they appear on the repository. If you wish, you can also add them. <br>
